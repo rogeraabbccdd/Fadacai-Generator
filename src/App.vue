@@ -19,6 +19,20 @@
       </css-doodle>
     </div>
     <router-view />
+    <div class="text-center">
+      <gh-btns-watch
+        slug="rogeraabbccdd/Fadacai-Generator"
+        show-count
+      ></gh-btns-watch>
+      <gh-btns-star
+        slug="rogeraabbccdd/Fadacai-Generator"
+        show-count
+      ></gh-btns-star>
+      <gh-btns-fork
+        slug="rogeraabbccdd/Fadacai-Generator"
+        show-count
+      ></gh-btns-fork>
+    </div>
   </div>
 </template>
 
@@ -42,9 +56,14 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.gh-button-container {
+  float: none;
+}
 </style>
 
 <script>
 import "css-doodle";
+import "vue-github-buttons/dist/vue-github-buttons.css";
 export default {};
 </script>

@@ -1,5 +1,29 @@
-# 發大財產生器
-跟著韓總一起讓高雄發大財!  
-https://rogeraabbccdd.github.io/Fadacai-Generator/
+# kaoshong
 
-![預覽圖](https://raw.githubusercontent.com/rogeraabbccdd/Fadacai-Generator/master/screenshot.jpg)
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

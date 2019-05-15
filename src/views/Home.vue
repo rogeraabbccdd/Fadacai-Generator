@@ -12,7 +12,7 @@
       </div>
       <hr />
       <div class="col-12 my-3">
-        <b-card title="所有聲音" sub-title="">
+        <b-card title="所有聲音" sub-title>
           <hr />
           <soundbtns :sounds="sounds"></soundbtns>
         </b-card>

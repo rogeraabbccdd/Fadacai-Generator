@@ -13,6 +13,9 @@
     <b-button class="m-1" variant="primary" @click="play()" ref="btnPlay"
       >播放</b-button
     >
+    <b-button class="m-1" variant="warning" @click="stop()" ref="btnStop"
+      >停止</b-button
+    >
     <b-button class="m-1" variant="success" @click="getUrl()">匯出</b-button>
     <b-button class="m-1" variant="danger" @click="removeAll()">清空</b-button>
   </div>
@@ -20,6 +23,7 @@
 <script>
 import { eventBus } from "../main.js";
 let nowPlaying = -1;
+let isPlaying = false;
 export default {
   name: "query",
   props: {
@@ -39,21 +43,28 @@ export default {
     },
     play() {
       if (this.snds.length > 0) {
+        isPlaying = true;
         nowPlaying = 0;
         this.$refs.btnPlay.setAttribute("disabled", "true");
         let audio = new Audio(this.snds[nowPlaying].file);
         audio.play();
         audio.onended = () => {
           nowPlaying++;
-          if (nowPlaying < this.snds.length) {
+          if (nowPlaying < this.snds.length && isPlaying) {
             audio.src = this.snds[nowPlaying].file;
             audio.play();
           } else {
             nowPlaying = -1;
+            isPlaying = false;
             this.$refs.btnPlay.removeAttribute("disabled");
           }
         };
       }
+    },
+    stop() {
+      nowPlaying = -1;
+      isPlaying = false;
+      this.$refs.btnPlay.removeAttribute("disabled");
     },
     getUrl() {
       let url = "";
@@ -87,23 +98,26 @@ export default {
   },
   watch: {
     // use watch because ajax sound list has delay
+    // load url when sound list is ready
     sounds: function(newVal) {
-      if (this.query != undefined) {
+      if (this.query != undefined && this.query.length > 0) {
         let querys = this.query.split(",");
-        for (let i = 0; i < querys.length; i++) {
-          let isIn = -1;
-          for (let j = 0; i < newVal.length; j++) {
-            let name = newVal[j].name;
-            if (name == querys[i]) {
-              isIn = j;
-              break;
+        if (querys.length > 0) {
+          for (let i = 0; i < querys.length; i++) {
+            let isIn = -1;
+            for (let j = 0; i < newVal.length; j++) {
+              let name = newVal[j].name;
+              if (name == querys[i]) {
+                isIn = j;
+                break;
+              }
             }
-          }
-          if (isIn > -1) {
-            this.snds.push({
-              file: newVal[isIn].file,
-              name: newVal[isIn].name
-            });
+            if (isIn > -1) {
+              this.snds.push({
+                file: newVal[isIn].file,
+                name: newVal[isIn].name
+              });
+            }
           }
         }
       }
