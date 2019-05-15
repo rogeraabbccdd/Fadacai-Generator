@@ -125,5 +125,20 @@
     }, {
         "file": "./sounds/黑韓國瑜.mp3",
         "name": "黑韓國瑜"
-    } ]
+    }, {
+        "file": "./sounds/發大財.mp3",
+        "name": "發大財"
+    }, {
+        "file": "./sounds/立足台灣.mp3",
+        "name": "立足台灣"
+    }, {
+        "file": "./sounds/胸懷大陸.mp3",
+        "name": "胸懷大陸"
+    }, {
+        "file": "./sounds/放眼世界.mp3",
+        "name": "放眼世界"
+    }, {
+        "file": "./sounds/征服宇宙.mp3",
+        "name": "征服宇宙"
+    }]
 }
