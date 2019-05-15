@@ -1,0 +1,20 @@
+{
+  "name": "發大財產生器",
+  "short_name": "發大財",
+  "icons": [
+    {
+      "src": "./img/money-bag192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/money-bag512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
+}
