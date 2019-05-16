@@ -96,7 +96,7 @@ export default {
       alert("匯出成功，可使用目前網址分享你的創作");
     },
     downloadFile() {
-      const selectedSounds = this.snds.map((snd) => snd.file);
+      const selectedSounds = this.snds.map(snd => snd.file);
       const audio = new Crunker();
       audio
         .fetchAudio(...selectedSounds)
