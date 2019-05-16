@@ -2,6 +2,7 @@
 跟著韓總一起讓高雄發大財!  
 - 立刻發大財  https://rogeraabbccdd.github.io/Fadacai-Generator/  
 - 巴哈討論串  https://forum.gamer.com.tw/C.php?bsn=60076&snA=5109856
+- 八卦版討論串 https://www.ptt.cc/bbs/Gossiping/M.1557980631.A.0FA.html
 
 ![預覽圖](https://raw.githubusercontent.com/rogeraabbccdd/Fadacai-Generator/master/screenshot.jpg)
 
