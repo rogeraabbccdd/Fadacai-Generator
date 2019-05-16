@@ -1,14 +1,24 @@
 <template>
-  <div>
+  <b-card title="已排序聲音" sub-title="點按按鈕可以移除已排序的聲音">
+    <hr />
     <p v-show="snds.length == 0" style="color: #ccc">請先在下方選擇音檔</p>
-    <b-button
-      class="m-1"
-      v-for="(s, idx) in snds"
-      :key="idx"
-      variant="success"
-      @click="remove(idx)"
-      >{{ s.name }}</b-button
+    <draggable
+      v-model="snds"
+      @start="dragging = true"
+      @end="dragging = false"
+      v-bind="dragOptions"
     >
+      <transition-group>
+        <b-button
+          class="m-1"
+          v-for="(s, idx) in snds"
+          :key="idx + 0"
+          variant="success"
+          @click="remove(idx)"
+          >{{ s.name }}</b-button
+        >
+      </transition-group>
+    </draggable>
     <hr />
     <b-button class="m-1" variant="primary" @click="play()" ref="btnPlay"
       >播放</b-button
@@ -19,15 +29,19 @@
     <b-button class="m-1" variant="success" @click="getUrl()">匯出</b-button>
     <b-button class="m-1" variant="info" @click="downloadFile()">下載</b-button>
     <b-button class="m-1" variant="danger" @click="removeAll()">清空</b-button>
-  </div>
+  </b-card>
 </template>
 <script>
 import Crunker from "crunker";
 import { eventBus } from "../main.js";
+import draggable from "vuedraggable";
 let nowPlaying = -1;
 let isPlaying = false;
 export default {
   name: "query",
+  components: {
+    draggable
+  },
   props: {
     sounds: Array,
     query: String,
@@ -105,12 +119,31 @@ export default {
   mounted() {
     // when soundbtns.vue btn clicked
     eventBus.$on("addSound", message => {
-      this.snds.push({
-        file: this.sounds[message].file,
-        name: this.sounds[message].name,
-        id: this.sounds[message].id
-      });
+      let isIn = -1;
+      for (let i = 0; i < this.sounds.length; i++) {
+        if (message == this.sounds[i].id) {
+          isIn = i;
+          break;
+        }
+      }
+      if (isIn > -1) {
+        this.snds.push({
+          file: this.sounds[isIn].file,
+          name: this.sounds[isIn].name,
+          id: this.sounds[isIn].id
+        });
+      }
     });
+  },
+  computed: {
+    dragOptions() {
+      return {
+        animation: 200,
+        group: "description",
+        disabled: false,
+        ghostClass: "ghost"
+      };
+    }
   },
   watch: {
     // use watch because ajax sound list has delay
@@ -119,9 +152,11 @@ export default {
       if (this.sids != undefined && this.sids.length > 0) {
         let querys = this.sids.split(",");
         if (querys.length > 0) {
+          // loop all url query
           for (let i = 0; i < querys.length; i++) {
+            // find it in sound list
             let isIn = -1;
-            for (let j = 0; i < newVal.length; j++) {
+            for (let j = 0; j < newVal.length; j++) {
               let id = newVal[j].id;
               if (id == querys[i]) {
                 isIn = j;

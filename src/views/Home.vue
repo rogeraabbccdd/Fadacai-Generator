@@ -5,17 +5,11 @@
         <img src="../../public/img/title.png" id="title" class="w-100" />
       </div>
       <div class="col-12 mb-3">
-        <b-card title="已排序聲音" sub-title="點按按鈕可以移除已排序的聲音">
-          <hr />
-          <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
-        </b-card>
+        <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
       </div>
       <hr />
       <div class="col-12 my-3">
-        <b-card title="所有聲音" sub-title>
-          <hr />
-          <soundbtns :sounds="sounds"></soundbtns>
-        </b-card>
+        <soundbtns :sounds="sounds"></soundbtns>
       </div>
     </div>
   </div>
