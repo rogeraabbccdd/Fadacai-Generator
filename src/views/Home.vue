@@ -7,7 +7,7 @@
       <div class="col-12 mb-3">
         <b-card title="已排序聲音" sub-title="點按按鈕可以移除已排序的聲音">
           <hr />
-          <playquery :sounds="sounds" :query="query"></playquery>
+          <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
         </b-card>
       </div>
       <hr />
@@ -33,10 +33,12 @@ export default {
   },
   data: function() {
     let query = this.$route.query.sounds;
+    let sids = this.$route.query.sids;
     let sounds = [];
     return {
       query,
-      sounds
+      sounds,
+      sids
     };
   },
   created() {

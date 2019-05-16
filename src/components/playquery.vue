@@ -28,7 +28,8 @@ export default {
   name: "query",
   props: {
     sounds: Array,
-    query: String
+    query: String,
+    sids: String
   },
   data() {
     let snds = [];
@@ -69,12 +70,12 @@ export default {
     getUrl() {
       let url = "";
       for (let i = 0; i < this.snds.length; i++) {
-        url = url + this.snds[i].name + ",";
+        url = url + this.snds[i].id + ",";
       }
       url = url.substr(0, url.length - 1);
       this.$router.push({
         name: "home",
-        query: { sounds: url }
+        query: { sids: url }
       });
       alert("匯出成功，可使用目前網址分享你的創作");
     },
@@ -92,7 +93,8 @@ export default {
     eventBus.$on("addSound", message => {
       this.snds.push({
         file: this.sounds[message].file,
-        name: this.sounds[message].name
+        name: this.sounds[message].name,
+        id: this.sounds[message].id
       });
     });
   },
@@ -100,7 +102,28 @@ export default {
     // use watch because ajax sound list has delay
     // load url when sound list is ready
     sounds: function(newVal) {
-      if (this.query != undefined && this.query.length > 0) {
+      if (this.sids != undefined && this.sids.length > 0) {
+        let querys = this.sids.split(",");
+        if (querys.length > 0) {
+          for (let i = 0; i < querys.length; i++) {
+            let isIn = -1;
+            for (let j = 0; i < newVal.length; j++) {
+              let id = newVal[j].id;
+              if (id == querys[i]) {
+                isIn = j;
+                break;
+              }
+            }
+            if (isIn > -1) {
+              this.snds.push({
+                file: newVal[isIn].file,
+                name: newVal[isIn].name,
+                id: newVal[isIn].id
+              });
+            }
+          }
+        }
+      } else if (this.query != undefined && this.query.length > 0) {
         let querys = this.query.split(",");
         if (querys.length > 0) {
           for (let i = 0; i < querys.length; i++) {
@@ -115,7 +138,8 @@ export default {
             if (isIn > -1) {
               this.snds.push({
                 file: newVal[isIn].file,
-                name: newVal[isIn].name
+                name: newVal[isIn].name,
+                id: newVal[isIn].id
               });
             }
           }
