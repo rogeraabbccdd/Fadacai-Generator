@@ -1,5 +1,8 @@
 <template>
-  <b-card title="已排序聲音" sub-title="點按按鈕可以移除已排序的聲音">
+  <b-card
+    title="已排序聲音"
+    sub-title="點按按鈕可以移除聲音，拖曳按鈕可以排序聲音"
+  >
     <hr />
     <p v-show="snds.length == 0" style="color: #ccc">請先在下方選擇音檔</p>
     <draggable
