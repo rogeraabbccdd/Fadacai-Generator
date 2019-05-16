@@ -20,21 +20,40 @@
       </transition-group>
     </draggable>
     <hr />
-    <b-button class="m-1" variant="primary" @click="play()" ref="btnPlay"
-      >播放</b-button
-    >
-    <b-button class="m-1" variant="warning" @click="stop()" ref="btnStop"
-      >停止</b-button
-    >
-    <b-button class="m-1" variant="success" @click="getUrl()">匯出</b-button>
-    <b-button class="m-1" variant="info" @click="downloadFile()">下載</b-button>
-    <b-button class="m-1" variant="danger" @click="removeAll()">清空</b-button>
+    <b-button class="m-1" variant="primary" @click="play()" ref="btnPlay">
+      <font-awesome-icon icon="play" />&nbsp;播放
+    </b-button>
+    <b-button class="m-1" variant="warning" @click="stop()" ref="btnStop">
+      <font-awesome-icon icon="stop" />&nbsp;停止
+    </b-button>
+    <b-button class="m-1" variant="danger" @click="removeAll()">
+      <font-awesome-icon :icon="['far', 'trash-alt']" />&nbsp;清空
+    </b-button>
+    <b-button class="m-1" variant="success" @click="getUrl()">
+      <font-awesome-icon icon="link" />&nbsp;匯出
+    </b-button>
+    <b-button class="m-1" variant="info" @click="downloadFile()">
+      <font-awesome-icon icon="download" />&nbsp;下載
+    </b-button>
+    <b-button class="m-1" variant="facebook" @click="shareFacebook()">
+      <font-awesome-icon :icon="['fab', 'facebook-f']" />&nbsp;分享
+    </b-button>
   </b-card>
 </template>
+
+<style>
+.btn-facebook {
+  background-color: #3b5998 !important;
+  border-color: #3b5998 !important;
+  color: #fff !important;
+}
+</style>
+
 <script>
 import Crunker from "crunker";
 import { eventBus } from "../main.js";
 import draggable from "vuedraggable";
+
 let nowPlaying = -1;
 let isPlaying = false;
 export default {
@@ -114,6 +133,20 @@ export default {
     },
     removeAll() {
       this.snds = [];
+    },
+    shareFacebook() {
+      let url = "";
+      for (let i = 0; i < this.snds.length; i++) {
+        url = url + this.snds[i].id + ",";
+      }
+      url = url.substr(0, url.length - 1);
+      this.$router.push({
+        name: "home",
+        query: { sids: url }
+      });
+      window.open(
+        "http://www.facebook.com/sharer/sharer.php?u=" + window.location.href
+      );
     }
   },
   mounted() {
