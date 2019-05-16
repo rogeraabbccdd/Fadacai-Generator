@@ -17,10 +17,12 @@
       >停止</b-button
     >
     <b-button class="m-1" variant="success" @click="getUrl()">匯出</b-button>
+    <b-button class="m-1" variant="info" @click="downloadFile()">下載</b-button>
     <b-button class="m-1" variant="danger" @click="removeAll()">清空</b-button>
   </div>
 </template>
 <script>
+import Crunker from "crunker";
 import { eventBus } from "../main.js";
 let nowPlaying = -1;
 let isPlaying = false;
@@ -78,6 +80,18 @@ export default {
         query: { sids: url }
       });
       alert("匯出成功，可使用目前網址分享你的創作");
+    },
+    downloadFile() {
+      const selectedSounds = this.snds.map((snd) => snd.file);
+      const audio = new Crunker();
+      audio
+        .fetchAudio(...selectedSounds)
+        .then(buffers => audio.concatAudio(buffers))
+        .then(merged => audio.export(merged, "audio/mp3"))
+        .then(output => audio.download(output.blob, "fadacai"))
+        .catch(error => {
+          throw new Error(error);
+        });
     },
     remove(idx) {
       if (nowPlaying == -1) {
