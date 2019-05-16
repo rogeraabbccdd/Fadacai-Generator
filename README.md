@@ -19,12 +19,17 @@
 ### 1.2.0 (2019/05/16 16:39)
 - 新增音檔排序功能 ([#5](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/5), [#1](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/1))
 - 新增音檔搜尋功能
-- 新增音檔匯出功能 ([#3](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/3), [#7](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/7))
-- 新增 23 個音檔
+- 新增音檔下載功能 ([#3](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/3), [#7](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/7))
+- 新增 23 個音檔 
 
 ### 1.2.1 (2019/05/16 19:46)
-- 新增 facbook 分享按鈕 ([#9](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/9))
+- 新增 facebook 分享按鈕 ([#9](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/9))
+- 新增 facebook 的 og meta ([#10](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/10))
 - 新增按鈕 icon
 
 ### 1.2.2 (2019/05/16 20:07)
 - 修正 facebook 分享連結 ([#9](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/9))
+
+### 1.2.3 (2019/05/17 00:34)
+- 新增音檔區播放效果，看的到正在播的是哪一個
+- 新增 39 個音檔和 3 個空白音檔([#11](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/11))
