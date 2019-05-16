@@ -145,7 +145,8 @@ export default {
         query: { sids: url }
       });
       window.open(
-        "http://www.facebook.com/sharer/sharer.php?u=" + window.location.href
+        "http://www.facebook.com/sharer/sharer.php?u=" +
+          encodeURIComponent(window.location.href)
       );
     }
   },
