@@ -88,7 +88,7 @@ export default {
         .fetchAudio(...selectedSounds)
         .then(buffers => audio.concatAudio(buffers))
         .then(merged => audio.export(merged, "audio/mp3"))
-        .then(output => audio.download(output.blob))
+        .then(output => audio.download(output.blob, "fadacai"))
         .catch(error => {
           throw new Error(error);
         });
