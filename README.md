@@ -1,6 +1,7 @@
 # 發大財產生器
 跟著韓總一起讓高雄發大財!  
-https://rogeraabbccdd.github.io/Fadacai-Generator/
+- 立刻發大財  https://rogeraabbccdd.github.io/Fadacai-Generator/  
+- 巴哈討論串  https://forum.gamer.com.tw/C.php?bsn=60076&snA=5109856
 
 ![預覽圖](https://raw.githubusercontent.com/rogeraabbccdd/Fadacai-Generator/master/screenshot.jpg)
 
@@ -10,3 +11,7 @@ https://rogeraabbccdd.github.io/Fadacai-Generator/
 - 新增GitHub專案原始碼連結
 - 新增GA網站分析
 - 新增停止播放按鈕
+
+### 1.1.0 (2019/05/16 10:22)
+- 新增 94 個音檔 (感謝 [巴哈串138樓](https://forum.gamer.com.tw/Co.php?bsn=60076&sn=58257213&subbsn=0&bPage=0))
+- 修改匯出連結為聲音ID，舊連結依然可以使用
