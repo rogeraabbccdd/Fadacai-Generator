@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <div class="row">
+      <div class="col-12">
+        <img src="../../public/img/title.png" id="title" class="w-100" />
+      </div>
       <div class="col-12 mb-3">
         <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
       </div>
