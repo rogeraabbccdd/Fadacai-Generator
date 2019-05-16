@@ -1,9 +1,6 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <img src="../../public/img/title.png" id="title" class="w-100" />
-      </div>
       <div class="col-12 mb-3">
         <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
       </div>
@@ -29,10 +26,12 @@ export default {
     let query = this.$route.query.sounds;
     let sids = this.$route.query.sids;
     let sounds = [];
+    let loadProgress = 0;
     return {
       query,
       sounds,
-      sids
+      sids,
+      loadProgress
     };
   },
   created() {

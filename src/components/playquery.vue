@@ -10,7 +10,7 @@
     >
       <transition-group>
         <b-button
-          class="m-1"
+          class="m-1 snds"
           v-for="(s, idx) in snds"
           :key="idx + 0"
           variant="success"
@@ -53,7 +53,6 @@
 import Crunker from "crunker";
 import { eventBus } from "../main.js";
 import draggable from "vuedraggable";
-
 let nowPlaying = -1;
 let isPlaying = false;
 export default {
@@ -82,25 +81,46 @@ export default {
         isPlaying = true;
         nowPlaying = 0;
         this.$refs.btnPlay.setAttribute("disabled", "true");
+        let btns = this.$el.querySelectorAll(".snds");
+        for (let i = 1; i < btns.length; i++) {
+          btns[i].classList.remove("btn-success");
+          btns[i].classList.add("btn-outline-success");
+        }
         let audio = new Audio(this.snds[nowPlaying].file);
         audio.play();
         audio.onended = () => {
-          nowPlaying++;
-          if (nowPlaying < this.snds.length && isPlaying) {
-            audio.src = this.snds[nowPlaying].file;
-            audio.play();
-          } else {
-            nowPlaying = -1;
-            isPlaying = false;
-            this.$refs.btnPlay.removeAttribute("disabled");
+          if (isPlaying) {
+            btns[nowPlaying].classList.remove("btn-success");
+            btns[nowPlaying].classList.add("btn-outline-success");
+            nowPlaying++;
+            if (nowPlaying < this.snds.length && isPlaying) {
+              audio.src = this.snds[nowPlaying].file;
+              audio.play();
+              btns[nowPlaying].classList.add("btn-success");
+              btns[nowPlaying].classList.remove("btn-outline-success");
+            } else {
+              nowPlaying = -1;
+              isPlaying = false;
+              this.$refs.btnPlay.removeAttribute("disabled");
+              for (let i = 0; i < btns.length; i++) {
+                btns[i].classList.add("btn-success");
+                btns[i].classList.remove("btn-outline-success");
+              }
+            }
           }
         };
       }
     },
     stop() {
+      let btns = this.$el.querySelectorAll(".snds");
+      btns = this.$el.querySelectorAll(".snds");
       nowPlaying = -1;
       isPlaying = false;
       this.$refs.btnPlay.removeAttribute("disabled");
+      for (let i = 0; i < btns.length; i++) {
+        btns[i].classList.add("btn-success");
+        btns[i].classList.remove("btn-outline-success");
+      }
     },
     getUrl() {
       let url = "";
@@ -127,7 +147,7 @@ export default {
         });
     },
     remove(idx) {
-      if (nowPlaying == -1) {
+      if (!isPlaying) {
         this.snds.splice(idx, 1);
       }
     },
@@ -153,19 +173,21 @@ export default {
   mounted() {
     // when soundbtns.vue btn clicked
     eventBus.$on("addSound", message => {
-      let isIn = -1;
-      for (let i = 0; i < this.sounds.length; i++) {
-        if (message == this.sounds[i].id) {
-          isIn = i;
-          break;
+      if (!isPlaying) {
+        let isIn = -1;
+        for (let i = 0; i < this.sounds.length; i++) {
+          if (message == this.sounds[i].id) {
+            isIn = i;
+            break;
+          }
         }
-      }
-      if (isIn > -1) {
-        this.snds.push({
-          file: this.sounds[isIn].file,
-          name: this.sounds[isIn].name,
-          id: this.sounds[isIn].id
-        });
+        if (isIn > -1) {
+          this.snds.push({
+            file: this.sounds[isIn].file,
+            name: this.sounds[isIn].name,
+            id: this.sounds[isIn].id
+          });
+        }
       }
     });
   },
