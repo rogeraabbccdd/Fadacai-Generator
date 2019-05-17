@@ -147,7 +147,7 @@ export default {
       // get short url
       let shortInput = this.$refs.shortInput;
       this.$http
-        .post("http://kento520.tw/tinyurl/index.php", {
+        .post("https://kento520.tw/tinyurl/index.php", {
           url: encodeURIComponent(window.location.href)
         })
         .then(data => {
