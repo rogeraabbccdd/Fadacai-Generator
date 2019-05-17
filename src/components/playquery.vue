@@ -58,6 +58,7 @@
 </style>
 
 <script>
+import Vue from "vue";
 import Crunker from "crunker";
 import { eventBus } from "../main.js";
 import draggable from "vuedraggable";
@@ -156,7 +157,10 @@ export default {
           shortInput.select();
           document.execCommand("copy");
           shortInput.setAttribute("type", "hidden");
-          alert("分享短網址已複製到剪貼簿");
+          Vue.swal({
+            text: "分享短網址已複製到剪貼簿",
+            type: "success"
+          });
         });
     },
     downloadFile() {
