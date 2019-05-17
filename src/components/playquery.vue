@@ -41,6 +41,11 @@
     <b-button class="m-1" variant="facebook" @click="shareFacebook()">
       <font-awesome-icon :icon="['fab', 'facebook-f']" />&nbsp;分享
     </b-button>
+    <input type="hidden" value ref="shortInput" />
+    <p v-if="shortText.length > 1">
+      分享短網址:
+      <a :href="shortText">{{ shortText }}</a>
+    </p>
   </b-card>
 </template>
 
@@ -70,8 +75,10 @@ export default {
   },
   data() {
     let snds = [];
+    let shortText = "";
     return {
-      snds
+      snds,
+      shortText
     };
   },
   methods: {
@@ -126,6 +133,7 @@ export default {
       }
     },
     getUrl() {
+      this.shortText = "短網址產生中...";
       let url = "";
       for (let i = 0; i < this.snds.length; i++) {
         url = url + this.snds[i].id + ",";
@@ -135,7 +143,21 @@ export default {
         name: "home",
         query: { sids: url }
       });
-      alert("匯出成功，可使用目前網址分享你的創作");
+      // get short url
+      let shortInput = this.$refs.shortInput;
+      this.$http
+        .post("http://kento520.tw/tinyurl/index.php", {
+          url: encodeURIComponent(window.location.href)
+        })
+        .then(data => {
+          shortInput.value = data.data;
+          this.shortText = data.data;
+          shortInput.setAttribute("type", "text");
+          shortInput.select();
+          document.execCommand("copy");
+          shortInput.setAttribute("type", "hidden");
+          alert("分享短網址已複製到剪貼簿");
+        });
     },
     downloadFile() {
       const selectedSounds = this.snds.map(snd => snd.file);

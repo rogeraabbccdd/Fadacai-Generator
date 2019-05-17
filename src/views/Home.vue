@@ -38,8 +38,13 @@ export default {
     };
   },
   created() {
+    let tmp = [];
     this.$http.get(soundList).then(data => {
-      this.sounds = data.data.sounds;
+      tmp = data.data.sounds;
+      tmp.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+      });
+      this.sounds = tmp;
     });
   }
 };
