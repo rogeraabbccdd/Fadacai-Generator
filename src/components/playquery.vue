@@ -135,15 +135,6 @@ export default {
     },
     getUrl() {
       this.shortText = "短網址產生中...";
-      let url = "";
-      for (let i = 0; i < this.snds.length; i++) {
-        url = url + this.snds[i].id + ",";
-      }
-      url = url.substr(0, url.length - 1);
-      this.$router.push({
-        name: "home",
-        query: { sids: url }
-      });
       // get short url
       let shortInput = this.$refs.shortInput;
       this.$http
@@ -184,15 +175,6 @@ export default {
       this.snds = [];
     },
     shareFacebook() {
-      let url = "";
-      for (let i = 0; i < this.snds.length; i++) {
-        url = url + this.snds[i].id + ",";
-      }
-      url = url.substr(0, url.length - 1);
-      this.$router.push({
-        name: "home",
-        query: { sids: url }
-      });
       window.open(
         "http://www.facebook.com/sharer/sharer.php?u=" +
           encodeURIComponent(window.location.href)
@@ -279,6 +261,20 @@ export default {
           }
         }
       }
+    },
+    snds: function(newVal) {
+      let url = "";
+      for (let i = 0; i < newVal.length; i++) {
+        url = url + newVal[i].id + ",";
+      }
+      url = url.substr(0, url.length - 1);
+      const routerObj = {
+        name: "home"
+      };
+      if (url) {
+        routerObj.query = { sids: url };
+      }
+      this.$router.push(routerObj);
     }
   }
 };
