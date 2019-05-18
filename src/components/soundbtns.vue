@@ -2,8 +2,11 @@
   <b-card title="所有聲音" sub-title>
     <hr />
     <div class="row">
-      <div class="col-12 my-2">
+      <div class="col-8 my-2">
         <b-form-input v-model="search" placeholder="搜索聲音..."></b-form-input>
+      </div>
+      <div class="col-4 my-2">
+        <b-button variant="info" @click="random()">隨機3個</b-button>
       </div>
       <div class="col-12 my-2">
         <b-button
@@ -34,6 +37,10 @@ export default {
   methods: {
     add(id) {
       eventBus.$emit("addSound", id);
+    },
+    random() {
+      for (let i = 0; i < 3; ++i)
+        this.add(Math.floor(Math.random() * this.sounds.length));
     }
   },
   computed: {
