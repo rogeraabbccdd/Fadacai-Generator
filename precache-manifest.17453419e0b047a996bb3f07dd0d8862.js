@@ -1,39 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "45593cec291bce302c64",
-    "url": "css/app.ecdc7aa4.css"
+    "revision": "7b4b1ffa79be6eb04e46a556af840fe0",
+    "url": "sounds/我再說一遍.mp3"
   },
   {
-    "revision": "45593cec291bce302c64",
-    "url": "js/app.9eb24487.js"
+    "revision": "af9197887cd645f3ff9f6b4a2232fdea",
+    "url": "img/title.psd"
   },
   {
-    "revision": "0b868cb0da75071c6964",
-    "url": "css/chunk-vendors.0410b1c5.css"
+    "revision": "af4df0fe8c8b54ff2c96ca97bc53bea0",
+    "url": "sounds/礦泉水.mp3"
   },
   {
-    "revision": "0b868cb0da75071c6964",
+    "revision": "87aaab8a81fad1da4984",
     "url": "js/chunk-vendors.1b722e67.js"
   },
   {
-    "revision": "a0f22ec879058b324941ed0352f4cd99",
-    "url": "img/title.a0f22ec8.png"
+    "revision": "7b3961fb57475ed9d4147aa6617f8da8",
+    "url": "sounds/間隔(5秒).mp3"
   },
   {
-    "revision": "63723712468a105262d3376ca7253d65",
-    "url": "img/loveriver.63723712.jpg"
+    "revision": "32b7b818d17513e536331bbf314e1de6",
+    "url": "sounds/間隔(3秒).mp3"
   },
   {
-    "revision": "6b710643c7245855661488dbbc977864",
+    "revision": "fbf9cdc2b82cc2d5ad70a35114c5e411",
     "url": "index.html"
   },
   {
-    "revision": "63723712468a105262d3376ca7253d65",
-    "url": "img/loveriver.jpg"
+    "revision": "229b9da1784c02c7575386810fe87aca",
+    "url": "sounds/高雄發大財2.mp3"
   },
   {
-    "revision": "a0f22ec879058b324941ed0352f4cd99",
-    "url": "img/title.png"
+    "revision": "def37d8e8c33c73e0646e6fe72dcdf8f",
+    "url": "sounds/鼓勵.mp3"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "sounds/佔.mp3"
   },
   {
-    "revision": "59771276776785c5b4a89a2cbe80a9f9",
-    "url": "img/money-bag192.png"
+    "revision": "b3eda35da86a441d0924260f9bc7bc09",
+    "url": "sounds/馬上縮回去.mp3"
   },
   {
     "revision": "5ab108ef1af639d9173d6c71c9268eba",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "sounds/(清嗓).mp3"
   },
   {
-    "revision": "0469810dca432cc4b11ef94f4917c1d0",
-    "url": "sounds/Spiderman.mp3"
-  },
-  {
     "revision": "9827e201b4ee9c457cef82eeb3113397",
     "url": "sounds/Undertable.mp3"
+  },
+  {
+    "revision": "0469810dca432cc4b11ef94f4917c1d0",
+    "url": "sounds/Spiderman.mp3"
   },
   {
     "revision": "96b9e5e4589516984c19795af64d10c4",
@@ -108,28 +108,28 @@ self.__precacheManifest = [
     "url": "sounds/一定要.mp3"
   },
   {
-    "revision": "2bdccde852a0bee479bae4a83bead0d3",
-    "url": "sounds/上.mp3"
-  },
-  {
     "revision": "a8f047ccd60c3bc56f803e4aee50ec13",
     "url": "sounds/上2.mp3"
   },
   {
-    "revision": "01edc31d598c7a506da9ad14445b2240",
-    "url": "sounds/下2.mp3"
+    "revision": "2bdccde852a0bee479bae4a83bead0d3",
+    "url": "sounds/上.mp3"
   },
   {
     "revision": "bf0e0b58a233a89a2e617d97696494db",
     "url": "sounds/不.mp3"
   },
   {
-    "revision": "9b3c6109eed7517ded22a9f7d5b504eb",
-    "url": "sounds/不管.mp3"
+    "revision": "01edc31d598c7a506da9ad14445b2240",
+    "url": "sounds/下2.mp3"
   },
   {
     "revision": "9497e12729b7d3b2683d80a080b6871c",
     "url": "sounds/不管是.mp3"
+  },
+  {
+    "revision": "9b3c6109eed7517ded22a9f7d5b504eb",
+    "url": "sounds/不管.mp3"
   },
   {
     "revision": "966354f19c56211caeea0f5714090a9a",
@@ -140,24 +140,24 @@ self.__precacheManifest = [
     "url": "sounds/不要動.mp3"
   },
   {
-    "revision": "34e1337b967c875424b7e208657b05ba",
-    "url": "sounds/中.mp3"
-  },
-  {
     "revision": "1b04d65f4c2ec95d685c8bdd800dbe19",
     "url": "sounds/並沒有.mp3"
+  },
+  {
+    "revision": "34e1337b967c875424b7e208657b05ba",
+    "url": "sounds/中.mp3"
   },
   {
     "revision": "2a2b941d5bdf1aa2e7848f94eae188bd",
     "url": "sounds/了.mp3"
   },
   {
-    "revision": "a7c35f4f852dc8768bb62dd5262f27be",
-    "url": "sounds/二.mp3"
-  },
-  {
     "revision": "39c6a93e4dd04a0f730c642065efd661",
     "url": "sounds/五.mp3"
+  },
+  {
+    "revision": "a7c35f4f852dc8768bb62dd5262f27be",
+    "url": "sounds/二.mp3"
   },
   {
     "revision": "14981a576bde048312a61d380a67f432",
@@ -172,10 +172,6 @@ self.__precacheManifest = [
     "url": "sounds/今.mp3"
   },
   {
-    "revision": "12639d6b8cb6fb43d3c97d65e7d45869",
-    "url": "sounds/他.mp3"
-  },
-  {
     "revision": "de3b559b78677fcfbd72c74b740790a8",
     "url": "sounds/他2.mp3"
   },
@@ -188,12 +184,8 @@ self.__precacheManifest = [
     "url": "sounds/他的.mp3"
   },
   {
-    "revision": "f953592ee84f941e48cc3fdad0a6dd15",
-    "url": "sounds/以後.mp3"
-  },
-  {
-    "revision": "30c8e105c52eef8142809614d2ab3e7c",
-    "url": "sounds/似乎.mp3"
+    "revision": "12639d6b8cb6fb43d3c97d65e7d45869",
+    "url": "sounds/他.mp3"
   },
   {
     "revision": "df2ebfcbbb644a15635b33c9e175d954",
@@ -204,6 +196,14 @@ self.__precacheManifest = [
     "url": "sounds/但是2.mp3"
   },
   {
+    "revision": "f953592ee84f941e48cc3fdad0a6dd15",
+    "url": "sounds/以後.mp3"
+  },
+  {
+    "revision": "30c8e105c52eef8142809614d2ab3e7c",
+    "url": "sounds/似乎.mp3"
+  },
+  {
     "revision": "0165b7e89498f7940a02bb97a193125b",
     "url": "sounds/低.mp3"
   },
@@ -212,24 +212,20 @@ self.__precacheManifest = [
     "url": "sounds/你.mp3"
   },
   {
-    "revision": "c4cf3c53a5a2feab85a197f304ea38a7",
-    "url": "sounds/你問.mp3"
-  },
-  {
     "revision": "f7c25918c6b167b1236b5a59cd613b98",
     "url": "sounds/來讓.mp3"
-  },
-  {
-    "revision": "2bbba7a547c679ead913ec56d6639178",
-    "url": "sounds/你們.mp3"
   },
   {
     "revision": "e2d30739b2e1b300147a527136f2093d",
     "url": "sounds/來.mp3"
   },
   {
-    "revision": "3e4c815f5e92dbf93041d30850cbf1d0",
-    "url": "img/money-bag512.png"
+    "revision": "7dc6db625f522e5160b585fd2a9b09ab",
+    "url": "sounds/黑阿.mp3"
+  },
+  {
+    "revision": "2bbba7a547c679ead913ec56d6639178",
+    "url": "sounds/你們.mp3"
   },
   {
     "revision": "2f9bcd2c6e0d9d1585abcf6f1b432cf1",
@@ -240,16 +236,20 @@ self.__precacheManifest = [
     "url": "sounds/money.mp3"
   },
   {
+    "revision": "c4cf3c53a5a2feab85a197f304ea38a7",
+    "url": "sounds/你問.mp3"
+  },
+  {
     "revision": "53e3f97c0f058153c019d5ef89b1ba86",
     "url": "sounds/一.mp3"
   },
   {
-    "revision": "f8fb2d0cd312c794f80b4efb40ace44b",
-    "url": "sounds/一大堆.mp3"
-  },
-  {
     "revision": "17c1ab1be59463da2faf660158fe51c5",
     "url": "sounds/一定2.mp3"
+  },
+  {
+    "revision": "f8fb2d0cd312c794f80b4efb40ace44b",
+    "url": "sounds/一大堆.mp3"
   },
   {
     "revision": "dcfa8cc87b63dbd56c85c7f5d17c8b54",
@@ -272,16 +272,16 @@ self.__precacheManifest = [
     "url": "sounds/不切實際.mp3"
   },
   {
-    "revision": "7df8cd089db3cd6c396e7664ef7efe41",
-    "url": "sounds/不好意思.mp3"
-  },
-  {
     "revision": "5f79121137fa701b8f29a7897ec11485",
     "url": "sounds/不接受.mp3"
   },
   {
     "revision": "f12e25c8836b1a411fbeded3b4f6b5a5",
     "url": "sounds/不瞭解.mp3"
+  },
+  {
+    "revision": "7df8cd089db3cd6c396e7664ef7efe41",
+    "url": "sounds/不好意思.mp3"
   },
   {
     "revision": "ab24562a0604ceb418cae617af6d2df3",
@@ -304,16 +304,16 @@ self.__precacheManifest = [
     "url": "sounds/之後.mp3"
   },
   {
+    "revision": "e6b2eec4ee901527c31933483e93f477",
+    "url": "sounds/也是一樣.mp3"
+  },
+  {
     "revision": "bf43fccc1f6128fbb0765d165d775f8b",
     "url": "sounds/也是你說的.mp3"
   },
   {
     "revision": "bd9bd90ddfa4c0805f7b258ad52f8e06",
     "url": "sounds/也能夠.mp3"
-  },
-  {
-    "revision": "e6b2eec4ee901527c31933483e93f477",
-    "url": "sounds/也是一樣.mp3"
   },
   {
     "revision": "800b0161ba2a61a824614920530deb5a",
@@ -372,12 +372,12 @@ self.__precacheManifest = [
     "url": "sounds/不要搞這一套.mp3"
   },
   {
-    "revision": "2903f428fa0761666fd4e2e2a71f7f68",
-    "url": "sounds/中華民國.mp3"
-  },
-  {
     "revision": "435808bab20e933d912a1ba39dc9745d",
     "url": "sounds/也就是說.mp3"
+  },
+  {
+    "revision": "2903f428fa0761666fd4e2e2a71f7f68",
+    "url": "sounds/中華民國.mp3"
   },
   {
     "revision": "525a6b8e99545fc0776025a7e5103eb5",
@@ -428,16 +428,16 @@ self.__precacheManifest = [
     "url": "sounds/勞工2.mp3"
   },
   {
+    "revision": "f13910e3cfb4b411a0d5d09074d03077",
+    "url": "sounds/全世界.mp3"
+  },
+  {
     "revision": "a6a6afde09fd225bc2cfb857d7bc3006",
     "url": "sounds/即.mp3"
   },
   {
     "revision": "26b3ec17b372a5bc4b5670523794fb3b",
     "url": "sounds/內.mp3"
-  },
-  {
-    "revision": "f13910e3cfb4b411a0d5d09074d03077",
-    "url": "sounds/全世界.mp3"
   },
   {
     "revision": "729fc9390a7ddc351730eeb6666aff74",
@@ -448,12 +448,12 @@ self.__precacheManifest = [
     "url": "sounds/再來.mp3"
   },
   {
-    "revision": "4ec0f22dbf027110e1a422dac9214b21",
-    "url": "sounds/最.mp3"
-  },
-  {
     "revision": "31ae0e585ee1d4b974b5827a6a6bd0f8",
     "url": "sounds/倒過來2.mp3"
+  },
+  {
+    "revision": "4ec0f22dbf027110e1a422dac9214b21",
+    "url": "sounds/最.mp3"
   },
   {
     "revision": "d7de6a19c78aaf937d057811507216fb",
@@ -468,12 +468,12 @@ self.__precacheManifest = [
     "url": "sounds/出來.mp3"
   },
   {
-    "revision": "c4acd9127708eb1857c3e165330e1eaf",
-    "url": "sounds/吧.mp3"
-  },
-  {
     "revision": "54b124135e95f736656f8d6df5671803",
     "url": "sounds/充滿著.mp3"
+  },
+  {
+    "revision": "c4acd9127708eb1857c3e165330e1eaf",
+    "url": "sounds/吧.mp3"
   },
   {
     "revision": "95da8bd5bdb7c6f4ab40f8bfd4a088ed",
@@ -512,16 +512,8 @@ self.__precacheManifest = [
     "url": "sounds/十萬.mp3"
   },
   {
-    "revision": "b415f7cc0b49adc668f091b6ea0e2262",
-    "url": "sounds/噓.mp3"
-  },
-  {
-    "revision": "35f268f415150948a9345b5c9c83e510",
-    "url": "sounds/即使.mp3"
-  },
-  {
-    "revision": "7dcac2c31df2150e4bb8ae84cea29d4c",
-    "url": "sounds/倒數第一名.mp3"
+    "revision": "95c9e352d5394e9d64d69110f685e77b",
+    "url": "soundList.json"
   },
   {
     "revision": "dda7f75878c25f9a0115676b89adb76a",
@@ -532,12 +524,24 @@ self.__precacheManifest = [
     "url": "sounds/全世界的.mp3"
   },
   {
+    "revision": "35f268f415150948a9345b5c9c83e510",
+    "url": "sounds/即使.mp3"
+  },
+  {
     "revision": "c7c507496822e04ffb12dbf882165b14",
     "url": "sounds/全部2.mp3"
   },
   {
+    "revision": "b415f7cc0b49adc668f091b6ea0e2262",
+    "url": "sounds/噓.mp3"
+  },
+  {
     "revision": "6924d9e72641d99b899e1d299567df22",
     "url": "sounds/兩次.mp3"
+  },
+  {
+    "revision": "7dcac2c31df2150e4bb8ae84cea29d4c",
+    "url": "sounds/倒數第一名.mp3"
   },
   {
     "revision": "a0e1c201b3ffd8a315a8c6934309c7f5",
@@ -556,20 +560,16 @@ self.__precacheManifest = [
     "url": "sounds/最亮的.mp3"
   },
   {
-    "revision": "1370ede9e380abe586eda3ac82ecba78",
-    "url": "soundList.json"
-  },
-  {
     "revision": "b0cceb7e5275b00481e543f2d91fab3d",
     "url": "sounds/可能.mp3"
   },
   {
-    "revision": "6f5ba7f41f23a5512db1b1dde7c2a05b",
-    "url": "sounds/最需要.mp3"
-  },
-  {
     "revision": "e06a180003fed680538df71b63fe779e",
     "url": "sounds/可能2.mp3"
+  },
+  {
+    "revision": "6f5ba7f41f23a5512db1b1dde7c2a05b",
+    "url": "sounds/最需要.mp3"
   },
   {
     "revision": "bc6e25856c7feb6263fb67e2b5bfce7b",
@@ -588,12 +588,16 @@ self.__precacheManifest = [
     "url": "sounds/右.mp3"
   },
   {
+    "revision": "2d258afb59e76d4b9d53488ce57e4dd5",
+    "url": "sounds/刺激.mp3"
+  },
+  {
     "revision": "c29aa6f761003a08f82b3ad1575fbd34",
     "url": "sounds/各位.mp3"
   },
   {
-    "revision": "2d258afb59e76d4b9d53488ce57e4dd5",
-    "url": "sounds/刺激.mp3"
+    "revision": "2c34902c9c610e3e4ff3fd4d99340eff",
+    "url": "sounds/前提.mp3"
   },
   {
     "revision": "9413cd39fc082a434805e7e1a1dde98c",
@@ -602,14 +606,6 @@ self.__precacheManifest = [
   {
     "revision": "ae5d838bd8848c48fa3377b101da9c72",
     "url": "sounds/吸.mp3"
-  },
-  {
-    "revision": "2c34902c9c610e3e4ff3fd4d99340eff",
-    "url": "sounds/前提.mp3"
-  },
-  {
-    "revision": "407e6d5bf832963100927bf9245d54ed",
-    "url": "sounds/回答.mp3"
   },
   {
     "revision": "98e0c363f883f899e37377ba03f439e4",
@@ -624,6 +620,10 @@ self.__precacheManifest = [
     "url": "sounds/唱衰.mp3"
   },
   {
+    "revision": "407e6d5bf832963100927bf9245d54ed",
+    "url": "sounds/回答.mp3"
+  },
+  {
     "revision": "98395c194fbb308cb3b5f0a488842353",
     "url": "sounds/包容.mp3"
   },
@@ -632,12 +632,12 @@ self.__precacheManifest = [
     "url": "sounds/包起來.mp3"
   },
   {
-    "revision": "65cf0319cb813ab1543cfab96c48db45",
-    "url": "sounds/北漂2.mp3"
-  },
-  {
     "revision": "0aa75c2a75b0e670e764ff78f516b106",
     "url": "sounds/喜歡.mp3"
+  },
+  {
+    "revision": "65cf0319cb813ab1543cfab96c48db45",
+    "url": "sounds/北漂2.mp3"
   },
   {
     "revision": "4b15cf8121c66caa50dd329348666db4",
@@ -648,24 +648,20 @@ self.__precacheManifest = [
     "url": "sounds/即將.mp3"
   },
   {
-    "revision": "c8d678caf716f3432437c01fff0e71c5",
-    "url": "sounds/去了.mp3"
-  },
-  {
     "revision": "7f42b212bf78af26fcddb79246fe62d8",
     "url": "sounds/全部都是.mp3"
   },
   {
-    "revision": "e775027299537f71d667e3ebe2a93265",
-    "url": "sounds/兩千五百億.mp3"
+    "revision": "c8d678caf716f3432437c01fff0e71c5",
+    "url": "sounds/去了.mp3"
   },
   {
     "revision": "07a291ea0aeb0d32167345ea567fe38f",
     "url": "sounds/又老又窮.mp3"
   },
   {
-    "revision": "f29177ca0a8d018f0afc6636001647cb",
-    "url": "sounds/噓2.mp3"
+    "revision": "e775027299537f71d667e3ebe2a93265",
+    "url": "sounds/兩千五百億.mp3"
   },
   {
     "revision": "56ce082f9dffdc8747f3c3ba22c53ded",
@@ -676,8 +672,8 @@ self.__precacheManifest = [
     "url": "sounds/再一起.mp3"
   },
   {
-    "revision": "7f776c9bfdd835c2e8000b766513741e",
-    "url": "sounds/另外.mp3"
+    "revision": "f29177ca0a8d018f0afc6636001647cb",
+    "url": "sounds/噓2.mp3"
   },
   {
     "revision": "a4960d997a1611c4220f3bd774a8f43f",
@@ -696,6 +692,10 @@ self.__precacheManifest = [
     "url": "sounds/最重要的意義.mp3"
   },
   {
+    "revision": "7f776c9bfdd835c2e8000b766513741e",
+    "url": "sounds/另外.mp3"
+  },
+  {
     "revision": "450e5eda6fe45fdccb37d88ba9806262",
     "url": "sounds/嘲諷.mp3"
   },
@@ -708,16 +708,16 @@ self.__precacheManifest = [
     "url": "sounds/嘴巴.mp3"
   },
   {
-    "revision": "fa744fd4a64a558dfacc28780cb8383e",
-    "url": "sounds/四.mp3"
-  },
-  {
     "revision": "34bdc6082d0d9f05f2ae1d42a7ec668d",
     "url": "sounds/各種.mp3"
   },
   {
     "revision": "f143aedfb6726b701ddacd52dca58707",
     "url": "sounds/刻不容緩.mp3"
+  },
+  {
+    "revision": "fa744fd4a64a558dfacc28780cb8383e",
+    "url": "sounds/四.mp3"
   },
   {
     "revision": "82b1c802bfad8686dcae41d11ebeabb2",
@@ -736,24 +736,24 @@ self.__precacheManifest = [
     "url": "sounds/因為.mp3"
   },
   {
-    "revision": "6d7a11ef7eaf096e1b31265dec0503fd",
-    "url": "sounds/嗎.mp3"
-  },
-  {
     "revision": "bff435dc4ce14b28e320a35075561fc5",
     "url": "sounds/千萬.mp3"
+  },
+  {
+    "revision": "6d7a11ef7eaf096e1b31265dec0503fd",
+    "url": "sounds/嗎.mp3"
   },
   {
     "revision": "1e5929f43f76e7fb083bb477b53fed45",
     "url": "sounds/受不了了.mp3"
   },
   {
-    "revision": "b2e9157e46694789a3e5718ac2014e55",
-    "url": "sounds/困難.mp3"
-  },
-  {
     "revision": "c108434a3fb666ab6cda9a9438feb6ba",
     "url": "sounds/口出惡言.mp3"
+  },
+  {
+    "revision": "b2e9157e46694789a3e5718ac2014e55",
+    "url": "sounds/困難.mp3"
   },
   {
     "revision": "576648689cb18872a79625aeb0c87879",
@@ -780,20 +780,20 @@ self.__precacheManifest = [
     "url": "sounds/因為我每天在.mp3"
   },
   {
-    "revision": "d8dfcf47e167dcbb15915d0f1b4d6006",
-    "url": "sounds/困難2.mp3"
-  },
-  {
     "revision": "35cde63007ed56602d290adb962a25b0",
     "url": "sounds/夠.mp3"
   },
   {
-    "revision": "11da60a439184a9414d8ca3a0b26d502",
-    "url": "sounds/大.mp3"
+    "revision": "d8dfcf47e167dcbb15915d0f1b4d6006",
+    "url": "sounds/困難2.mp3"
   },
   {
     "revision": "79b5b85b4efeedc8e40af1a0ec06c733",
     "url": "sounds/國民黨.mp3"
+  },
+  {
+    "revision": "11da60a439184a9414d8ca3a0b26d502",
+    "url": "sounds/大.mp3"
   },
   {
     "revision": "f2d9d52409db8ad9ae34b9139a2bd7d3",
@@ -812,12 +812,12 @@ self.__precacheManifest = [
     "url": "sounds/堵住.mp3"
   },
   {
-    "revision": "efb5c6305968f0724f132577e1275119",
-    "url": "sounds/好不好2.mp3"
-  },
-  {
     "revision": "551d67fbc04f78db64e26f6f3829afa1",
     "url": "sounds/外.mp3"
+  },
+  {
+    "revision": "efb5c6305968f0724f132577e1275119",
+    "url": "sounds/好不好2.mp3"
   },
   {
     "revision": "cc39d969a42e43ebfc477d3bd70ba489",
@@ -832,40 +832,32 @@ self.__precacheManifest = [
     "url": "sounds/孩子.mp3"
   },
   {
-    "revision": "684ec3b85cafca940f57fc5e2583d0de",
-    "url": "sounds/大2.mp3"
-  },
-  {
     "revision": "2f836f0a32276201a0bb5c8e4d4229cf",
     "url": "sounds/大家.mp3"
-  },
-  {
-    "revision": "f2b5f096ca1a240083f24d6da6e7e448",
-    "url": "sounds/家鄉.mp3"
   },
   {
     "revision": "4b711f5b954b073e446558fa1d301862",
     "url": "sounds/大家好.mp3"
   },
   {
-    "revision": "16e6d0ef667f45191470291e179eae99",
-    "url": "sounds/大概是.mp3"
+    "revision": "684ec3b85cafca940f57fc5e2583d0de",
+    "url": "sounds/大2.mp3"
   },
   {
     "revision": "6a96429c63c7241ba517fef3747388bc",
     "url": "sounds/大概.mp3"
   },
   {
+    "revision": "f2b5f096ca1a240083f24d6da6e7e448",
+    "url": "sounds/家鄉.mp3"
+  },
+  {
+    "revision": "16e6d0ef667f45191470291e179eae99",
+    "url": "sounds/大概是.mp3"
+  },
+  {
     "revision": "bebee444201e8ecd9ee6eb5cf26af22a",
     "url": "sounds/在於.mp3"
-  },
-  {
-    "revision": "0896aa14c2fc5ac89b87a7ea62b138f3",
-    "url": "sounds/射.mp3"
-  },
-  {
-    "revision": "87358afc1e031923f9d7beeccbffecce",
-    "url": "sounds/射2.mp3"
   },
   {
     "revision": "49450cbb7f4dbf86fdc2ba282d61f08f",
@@ -876,24 +868,32 @@ self.__precacheManifest = [
     "url": "sounds/天.mp3"
   },
   {
-    "revision": "de7f2bf4982497a0c5f0d881d31495a8",
-    "url": "sounds/在這裡.mp3"
+    "revision": "87358afc1e031923f9d7beeccbffecce",
+    "url": "sounds/射2.mp3"
   },
   {
     "revision": "8f39a33d66e0b89996615dbec91965da",
     "url": "sounds/太.mp3"
   },
   {
+    "revision": "de7f2bf4982497a0c5f0d881d31495a8",
+    "url": "sounds/在這裡.mp3"
+  },
+  {
     "revision": "3921771b8ef2b70871e6523fd1c4f4bb",
     "url": "sounds/太2.mp3"
   },
   {
-    "revision": "fa894053bc8127847787979738c11302",
-    "url": "sounds/奮鬥的過程.mp3"
+    "revision": "0896aa14c2fc5ac89b87a7ea62b138f3",
+    "url": "sounds/射.mp3"
   },
   {
     "revision": "47913fbf34057f726e5390067c2a5871",
     "url": "sounds/好.mp3"
+  },
+  {
+    "revision": "fa894053bc8127847787979738c11302",
+    "url": "sounds/奮鬥的過程.mp3"
   },
   {
     "revision": "52ee8ba3b2d14934a0e3aa2dec755810",
@@ -904,44 +904,44 @@ self.__precacheManifest = [
     "url": "sounds/小寶貝.mp3"
   },
   {
-    "revision": "d203307cd3d8292604f57385b7c2b356",
-    "url": "sounds/好不好3.mp3"
-  },
-  {
     "revision": "e1bf3e5de7830c25c95527aec72eba79",
     "url": "sounds/好厲害.mp3"
   },
   {
-    "revision": "30f9c0082fb4748a022317ab414ff3ac",
-    "url": "sounds/在哪裡勒.mp3"
+    "revision": "d203307cd3d8292604f57385b7c2b356",
+    "url": "sounds/好不好3.mp3"
   },
   {
     "revision": "675bc76b825d3fb2be9b27342b22d406",
     "url": "sounds/多麼.mp3"
   },
   {
-    "revision": "7047dbb220f90ab7e7c1fad954cf6d2e",
-    "url": "sounds/多麼大.mp3"
-  },
-  {
-    "revision": "8647eb2ef378b9bad62fc117139e601b",
-    "url": "sounds/屁.mp3"
+    "revision": "30f9c0082fb4748a022317ab414ff3ac",
+    "url": "sounds/在哪裡勒.mp3"
   },
   {
     "revision": "69043d366c695411b95afd33518a9e35",
     "url": "sounds/如果.mp3"
   },
   {
+    "revision": "8647eb2ef378b9bad62fc117139e601b",
+    "url": "sounds/屁.mp3"
+  },
+  {
+    "revision": "7047dbb220f90ab7e7c1fad954cf6d2e",
+    "url": "sounds/多麼大.mp3"
+  },
+  {
     "revision": "c6314d102b813dbb55d08c4a07e275ad",
     "url": "sounds/學生.mp3"
   },
   {
-    "revision": "dab789b5b90661dc564887be52be30a3",
-    "url": "sounds/巨大.mp3"
-  },
-  {
     "revision": "4820785400499c0a44d5eaf5b92655c8",
     "url": "sounds/客.mp3"
+  },
+  {
+    "revision": "dab789b5b90661dc564887be52be30a3",
+    "url": "sounds/巨大.mp3"
   },
   {
     "revision": "4fcfee2343abad3b2a1c4ee2f6fa36c9",
@@ -968,16 +968,12 @@ self.__precacheManifest = [
     "url": "sounds/對不對.mp3"
   },
   {
-    "revision": "876f1bed50b2ba2a5d4b11610dec07f7",
-    "url": "sounds/小.mp3"
-  },
-  {
     "revision": "7bc088a274c0ccca2c8f7c16057e07d6",
     "url": "sounds/好2.mp3"
   },
   {
-    "revision": "f483274b37b60998682fb818f87efdd2",
-    "url": "sounds/小2.mp3"
+    "revision": "876f1bed50b2ba2a5d4b11610dec07f7",
+    "url": "sounds/小.mp3"
   },
   {
     "revision": "d307c5ea88e73dc276b971ba29cfd86d",
@@ -988,52 +984,56 @@ self.__precacheManifest = [
     "url": "sounds/小學生.mp3"
   },
   {
-    "revision": "cb555a6b4581ab96e5fd2c3a7c282c91",
-    "url": "sounds/小牙籤.mp3"
+    "revision": "f483274b37b60998682fb818f87efdd2",
+    "url": "sounds/小2.mp3"
   },
   {
-    "revision": "d59ebff74c1af53f7c9bdabf700e1e7d",
-    "url": "sounds/好好.mp3"
+    "revision": "cb555a6b4581ab96e5fd2c3a7c282c91",
+    "url": "sounds/小牙籤.mp3"
   },
   {
     "revision": "cf6b1c4ee36177ae1aaf51572cbe0446",
     "url": "sounds/外面有很多.mp3"
   },
   {
-    "revision": "376998707c8951dab8c07356dba8ed32",
-    "url": "sounds/年輕.mp3"
+    "revision": "d59ebff74c1af53f7c9bdabf700e1e7d",
+    "url": "sounds/好好.mp3"
   },
   {
     "revision": "3fe8af4be06855cca1e927993cb3f3fc",
     "url": "sounds/如何.mp3"
   },
   {
-    "revision": "a3172f2955c94a915f3ba2d40d44ae86",
-    "url": "sounds/就.mp3"
-  },
-  {
     "revision": "a790ddce1d6f291386ef01de2bc995b4",
     "url": "sounds/就把他.mp3"
   },
   {
-    "revision": "f0760c17c23ef6619359b07323fae872",
-    "url": "sounds/子弟.mp3"
+    "revision": "a3172f2955c94a915f3ba2d40d44ae86",
+    "url": "sounds/就.mp3"
   },
   {
     "revision": "a2707b7bc8203e29ebaa63d6bd257946",
     "url": "sounds/屁眼.mp3"
   },
   {
+    "revision": "376998707c8951dab8c07356dba8ed32",
+    "url": "sounds/年輕.mp3"
+  },
+  {
+    "revision": "f0760c17c23ef6619359b07323fae872",
+    "url": "sounds/子弟.mp3"
+  },
+  {
     "revision": "437c802d12dce03343e471edc5ebaad1",
     "url": "sounds/學校.mp3"
   },
   {
-    "revision": "6c1f539673a70b9d031f1165b93e7ab7",
-    "url": "sounds/完.mp3"
-  },
-  {
     "revision": "8833a6e3f395ea5a41ef7a0268573f21",
     "url": "sounds/左.mp3"
+  },
+  {
+    "revision": "6c1f539673a70b9d031f1165b93e7ab7",
+    "url": "sounds/完.mp3"
   },
   {
     "revision": "89e601895622c41a6b5052c8ede4b893",
@@ -1052,10 +1052,6 @@ self.__precacheManifest = [
     "url": "sounds/天馬行空.mp3"
   },
   {
-    "revision": "20b8eb808b826e043a3b9003b6cfc33b",
-    "url": "sounds/差.mp3"
-  },
-  {
     "revision": "b5cead37acf20af91d0f682669f59e6f",
     "url": "sounds/專家.mp3"
   },
@@ -1064,8 +1060,8 @@ self.__precacheManifest = [
     "url": "sounds/尊重.mp3"
   },
   {
-    "revision": "aa0b753f3537070768896416efc8a215",
-    "url": "sounds/帥.mp3"
+    "revision": "20b8eb808b826e043a3b9003b6cfc33b",
+    "url": "sounds/差.mp3"
   },
   {
     "revision": "1cb6fb5c5a716695ebe71e489eb4af1b",
@@ -1076,36 +1072,44 @@ self.__precacheManifest = [
     "url": "sounds/對我.mp3"
   },
   {
-    "revision": "dc4ba9ab5d19d68e624705f9f9abcf17",
-    "url": "sounds/幫.mp3"
+    "revision": "1f2ae51fb353f9baf5541e3de67ab0cd",
+    "url": "sounds/好多好多.mp3"
+  },
+  {
+    "revision": "aa0b753f3537070768896416efc8a215",
+    "url": "sounds/帥.mp3"
   },
   {
     "revision": "a124c5e420981def0facee8dd79e9c6b",
     "url": "sounds/小瘪三.mp3"
   },
   {
+    "revision": "dc4ba9ab5d19d68e624705f9f9abcf17",
+    "url": "sounds/幫.mp3"
+  },
+  {
     "revision": "f457d3ccb18861de10e34f8b8ef86915",
     "url": "sounds/幫我.mp3"
-  },
-  {
-    "revision": "1f2ae51fb353f9baf5541e3de67ab0cd",
-    "url": "sounds/好多好多.mp3"
-  },
-  {
-    "revision": "debc5263a858b1959ba68924ce7131bb",
-    "url": "sounds/居然.mp3"
   },
   {
     "revision": "2c73440bae98cdcf1291e2881e8e5950",
     "url": "sounds/工具.mp3"
   },
   {
-    "revision": "3e337cb2d07d45f03ed8581863135f5d",
-    "url": "sounds/完全沒有關係.mp3"
+    "revision": "debc5263a858b1959ba68924ce7131bb",
+    "url": "sounds/居然.mp3"
   },
   {
     "revision": "6a4c9922255850ef48e498e875449970",
     "url": "sounds/巨人.mp3"
+  },
+  {
+    "revision": "3e337cb2d07d45f03ed8581863135f5d",
+    "url": "sounds/完全沒有關係.mp3"
+  },
+  {
+    "revision": "33905dcf4ddee41c1a7f6898292ef248",
+    "url": "sounds/希望.mp3"
   },
   {
     "revision": "1dd5fc6ee6724543afe365325f692315",
@@ -1114,10 +1118,6 @@ self.__precacheManifest = [
   {
     "revision": "6e1df5c40c85dc1b83c9027ed8ca55eb",
     "url": "sounds/已經到了頂了.mp3"
-  },
-  {
-    "revision": "33905dcf4ddee41c1a7f6898292ef248",
-    "url": "sounds/希望.mp3"
   },
   {
     "revision": "7d2a29c2ae9557081cb25eced6dbf848",
@@ -1172,24 +1172,24 @@ self.__precacheManifest = [
     "url": "sounds/我.mp3"
   },
   {
-    "revision": "ded2903d56c906351ffa714847bcd650",
-    "url": "sounds/強烈.mp3"
+    "revision": "74e36103087b81f41ebb64215d844735",
+    "url": "sounds/心中.mp3"
   },
   {
     "revision": "f0135bdd4a641a3dc8a3b432ab167ace",
     "url": "sounds/我2.mp3"
   },
   {
-    "revision": "74e36103087b81f41ebb64215d844735",
-    "url": "sounds/心中.mp3"
-  },
-  {
-    "revision": "6cb0dacdbbfce75399714026ddfa5a94",
-    "url": "sounds/我不是.mp3"
+    "revision": "ded2903d56c906351ffa714847bcd650",
+    "url": "sounds/強烈.mp3"
   },
   {
     "revision": "b80a1793fd210800ff937bbbb33cdaf6",
     "url": "sounds/快2.mp3"
+  },
+  {
+    "revision": "6cb0dacdbbfce75399714026ddfa5a94",
+    "url": "sounds/我不是.mp3"
   },
   {
     "revision": "89ed59d10d178b8d52aed725dfe6fb5e",
@@ -1208,6 +1208,10 @@ self.__precacheManifest = [
     "url": "sounds/愛.mp3"
   },
   {
+    "revision": "13dd521497610f1bd80c62e227f192b5",
+    "url": "sounds/從.mp3"
+  },
+  {
     "revision": "11221a6e5543421b3b168fa386a7e571",
     "url": "sounds/我們的.mp3"
   },
@@ -1220,20 +1224,16 @@ self.__precacheManifest = [
     "url": "sounds/感謝.mp3"
   },
   {
-    "revision": "13dd521497610f1bd80c62e227f192b5",
-    "url": "sounds/從.mp3"
-  },
-  {
     "revision": "538822c6cfcbbe87fd2c093c2fdabf12",
     "url": "sounds/弱勢族群.mp3"
   },
   {
-    "revision": "60d319482a5a11ad0695af9de963b7b8",
-    "url": "sounds/我(短音).mp3"
-  },
-  {
     "revision": "a9638c469892e7ba4abaeaeaf02790c8",
     "url": "sounds/從來沒有.mp3"
+  },
+  {
+    "revision": "60d319482a5a11ad0695af9de963b7b8",
+    "url": "sounds/我(短音).mp3"
   },
   {
     "revision": "145703043b911ed28d2b47ffa82dcc6d",
@@ -1252,28 +1252,28 @@ self.__precacheManifest = [
     "url": "sounds/我們.mp3"
   },
   {
-    "revision": "f3280238ab82deb64a6153abcfe2aea2",
-    "url": "sounds/很有豐富的.mp3"
-  },
-  {
     "revision": "b5c61c305ffcbda670dea1c59ba56d4a",
     "url": "sounds/我的.mp3"
   },
   {
-    "revision": "5770cd0e741faa090b89a748ccc07fe3",
-    "url": "sounds/我們2.mp3"
+    "revision": "f9f30e508183da1fcc5158ad3b58aa93",
+    "url": "sounds/愈來愈小.mp3"
+  },
+  {
+    "revision": "f3280238ab82deb64a6153abcfe2aea2",
+    "url": "sounds/很有豐富的.mp3"
   },
   {
     "revision": "f16648b1fcd80aae2e74f11fcd57c2ad",
     "url": "sounds/愈來愈.mp3"
   },
   {
-    "revision": "288d0c253c6ee4983347c0b9c04b274b",
-    "url": "sounds/我們3.mp3"
+    "revision": "5770cd0e741faa090b89a748ccc07fe3",
+    "url": "sounds/我們2.mp3"
   },
   {
-    "revision": "f9f30e508183da1fcc5158ad3b58aa93",
-    "url": "sounds/愈來愈小.mp3"
+    "revision": "288d0c253c6ee4983347c0b9c04b274b",
+    "url": "sounds/我們3.mp3"
   },
   {
     "revision": "a19494ed2a619c66594b04f088e5b458",
@@ -1292,12 +1292,12 @@ self.__precacheManifest = [
     "url": "sounds/我(長音).mp3"
   },
   {
-    "revision": "02b78452a5e4fbc6f6c6e3145a78f80d",
-    "url": "sounds/我想.mp3"
-  },
-  {
     "revision": "2d70d1008669ce2c023b145bb866550a",
     "url": "sounds/我一直不停的.mp3"
+  },
+  {
+    "revision": "02b78452a5e4fbc6f6c6e3145a78f80d",
+    "url": "sounds/我想.mp3"
   },
   {
     "revision": "ed905444e6ffc21887e6ce4ba51bf59d",
@@ -1332,16 +1332,20 @@ self.__precacheManifest = [
     "url": "sounds/愛情摩天輪.mp3"
   },
   {
-    "revision": "bc6223efeb99f7e156049a23e3e8a41d",
-    "url": "sounds/找.mp3"
-  },
-  {
     "revision": "d1379ad8ecd1960158a39e642154a068",
     "url": "sounds/我覺得.mp3"
   },
   {
+    "revision": "bc6223efeb99f7e156049a23e3e8a41d",
+    "url": "sounds/找.mp3"
+  },
+  {
     "revision": "68b3f2133c9b3334cec4411b9f458adc",
     "url": "sounds/我在亂講.mp3"
+  },
+  {
+    "revision": "cb92b8736d7a9a036bb27c3eca47e38a",
+    "url": "sounds/從來沒有想過.mp3"
   },
   {
     "revision": "09ff419421e21296842e29a564483c2c",
@@ -1352,14 +1356,6 @@ self.__precacheManifest = [
     "url": "sounds/我很.mp3"
   },
   {
-    "revision": "cb92b8736d7a9a036bb27c3eca47e38a",
-    "url": "sounds/從來沒有想過.mp3"
-  },
-  {
-    "revision": "3aef221d20055970eac1cc64497c517a",
-    "url": "sounds/或者.mp3"
-  },
-  {
     "revision": "cf42aaea7604a69f4784adff82599d1d",
     "url": "sounds/我應該.mp3"
   },
@@ -1368,20 +1364,24 @@ self.__precacheManifest = [
     "url": "sounds/我才能夠.mp3"
   },
   {
-    "revision": "c1709be485674fb4832269ce48b13964",
-    "url": "sounds/手.mp3"
+    "revision": "3aef221d20055970eac1cc64497c517a",
+    "url": "sounds/或者.mp3"
   },
   {
     "revision": "f1b2618935d15c2a2c7f0b58af8c1e8d",
     "url": "sounds/我沒有.mp3"
   },
   {
-    "revision": "6ed3eaf72dec8624b3d807a6f1971118",
-    "url": "sounds/才是個屁.mp3"
+    "revision": "c1709be485674fb4832269ce48b13964",
+    "url": "sounds/手.mp3"
   },
   {
     "revision": "0576fa866d7a4a1b9df489e4cec0664e",
     "url": "sounds/我熱愛.mp3"
+  },
+  {
+    "revision": "6ed3eaf72dec8624b3d807a6f1971118",
+    "url": "sounds/才是個屁.mp3"
   },
   {
     "revision": "f33e1a59c6f0993812c476cfd617a9bf",
@@ -1400,32 +1400,28 @@ self.__precacheManifest = [
     "url": "sounds/我絕對不會.mp3"
   },
   {
-    "revision": "7b4b1ffa79be6eb04e46a556af840fe0",
-    "url": "sounds/我再說一遍.mp3"
-  },
-  {
-    "revision": "ef79b0760e974cda983abe37a383c92d",
-    "url": "sounds/把.mp3"
-  },
-  {
-    "revision": "817d2e38cdee1a322f7e8d171b043392",
-    "url": "sounds/我覺得2.mp3"
+    "revision": "e0f526efebea9fbe4c13",
+    "url": "js/app.12f5e5dd.js"
   },
   {
     "revision": "7159b778fa27231e8d1a8f10ad3c2d2e",
     "url": "sounds/我再重申一遍.mp3"
   },
   {
+    "revision": "817d2e38cdee1a322f7e8d171b043392",
+    "url": "sounds/我覺得2.mp3"
+  },
+  {
     "revision": "b55da1a6486115401a5e056921fafdac",
     "url": "sounds/抱.mp3"
   },
   {
-    "revision": "bfa59c9006e9ef177e68d096cbbbb1e9",
-    "url": "sounds/我誠心的回答.mp3"
+    "revision": "ef79b0760e974cda983abe37a383c92d",
+    "url": "sounds/把.mp3"
   },
   {
-    "revision": "8f06c7993e8f46f4daea233e0da5cd4a",
-    "url": "sounds/我講的.mp3"
+    "revision": "bfa59c9006e9ef177e68d096cbbbb1e9",
+    "url": "sounds/我誠心的回答.mp3"
   },
   {
     "revision": "8d8f7b75091bceb5ea92eb55409d76b9",
@@ -1434,6 +1430,10 @@ self.__precacheManifest = [
   {
     "revision": "f3ff3635e287da534258f0ddcec99456",
     "url": "sounds/我很願意.mp3"
+  },
+  {
+    "revision": "8f06c7993e8f46f4daea233e0da5cd4a",
+    "url": "sounds/我講的.mp3"
   },
   {
     "revision": "c20639ec79050377a2237d31f49c381b",
@@ -1460,12 +1460,12 @@ self.__precacheManifest = [
     "url": "sounds/捏.mp3"
   },
   {
-    "revision": "de8f84efa53a1c340d21a3428921d650",
-    "url": "sounds/接.mp3"
-  },
-  {
     "revision": "319c0ef90004d9f247a44722ff68e954",
     "url": "sounds/我的心中沒有.mp3"
+  },
+  {
+    "revision": "de8f84efa53a1c340d21a3428921d650",
+    "url": "sounds/接.mp3"
   },
   {
     "revision": "0404cb23ae6820ed9aa383b42d3f2ac6",
@@ -1480,10 +1480,6 @@ self.__precacheManifest = [
     "url": "sounds/我可能是唯一的一位.mp3"
   },
   {
-    "revision": "811e9887ed8a5f8f1b8072ac1eaff40c",
-    "url": "sounds/接受.mp3"
-  },
-  {
     "revision": "6a55533529dea5c44a64d7799e6d0a32",
     "url": "sounds/我完全不接受.mp3"
   },
@@ -1492,12 +1488,12 @@ self.__precacheManifest = [
     "url": "sounds/我一定會任用一位.mp3"
   },
   {
-    "revision": "4d54ba2f11be36136f009d8a6e8feb1e",
-    "url": "sounds/抱怨.mp3"
+    "revision": "811e9887ed8a5f8f1b8072ac1eaff40c",
+    "url": "sounds/接受.mp3"
   },
   {
-    "revision": "789b2492c40bc2c63ee36193a04f826b",
-    "url": "sounds/抹黑.mp3"
+    "revision": "4d54ba2f11be36136f009d8a6e8feb1e",
+    "url": "sounds/抱怨.mp3"
   },
   {
     "revision": "984c157d402311fdd52c247b79ee8bd1",
@@ -1512,32 +1508,36 @@ self.__precacheManifest = [
     "url": "sounds/提出.mp3"
   },
   {
-    "revision": "a10b6dc92cbe7010a85210773c50bdad",
-    "url": "sounds/扣我的帽子.mp3"
+    "revision": "789b2492c40bc2c63ee36193a04f826b",
+    "url": "sounds/抹黑.mp3"
   },
   {
     "revision": "d8b8b8a08b4f7f37ebd50da4d73feed3",
     "url": "sounds/拜託.mp3"
   },
   {
+    "revision": "a10b6dc92cbe7010a85210773c50bdad",
+    "url": "sounds/扣我的帽子.mp3"
+  },
+  {
     "revision": "fc180403ba001771956fcf2d8df13078",
     "url": "sounds/我覺得是沒有什麼幫助的.mp3"
-  },
-  {
-    "revision": "a8dd32c0bbf536247623c33d528df7ac",
-    "url": "sounds/放在.mp3"
-  },
-  {
-    "revision": "50592efd23356fddceb53475f6d591eb",
-    "url": "sounds/接受2.mp3"
   },
   {
     "revision": "5978fd03db658049e0d9154a3e66ab32",
     "url": "sounds/我願意負起責任.mp3"
   },
   {
+    "revision": "a8dd32c0bbf536247623c33d528df7ac",
+    "url": "sounds/放在.mp3"
+  },
+  {
     "revision": "17f591df3cf5f6112a9c3c0df4a00f4e",
     "url": "sounds/政治.mp3"
+  },
+  {
+    "revision": "50592efd23356fddceb53475f6d591eb",
+    "url": "sounds/接受2.mp3"
   },
   {
     "revision": "0a2092314301867929db6cea60068ebd",
@@ -1572,12 +1572,12 @@ self.__precacheManifest = [
     "url": "sounds/擔心.mp3"
   },
   {
-    "revision": "c858e519e34e49205cd6698fdc118a22",
-    "url": "sounds/是個屁.mp3"
-  },
-  {
     "revision": "4d350f0891f4bd1f1bc716efc5cafc5a",
     "url": "sounds/擦亮.mp3"
+  },
+  {
+    "revision": "c858e519e34e49205cd6698fdc118a22",
+    "url": "sounds/是個屁.mp3"
   },
   {
     "revision": "b654263b86854a6d295edeec58ca647f",
@@ -1588,32 +1588,32 @@ self.__precacheManifest = [
     "url": "sounds/更.mp3"
   },
   {
-    "revision": "6a6333d12ad3ade0dc924297d9998efd",
-    "url": "sounds/政治2.mp3"
-  },
-  {
     "revision": "0e2c40c97ae60b775a86c4839b1267fd",
     "url": "sounds/正.mp3"
   },
   {
-    "revision": "293c267e0b9e411fb821ace9e3be60d6",
-    "url": "sounds/教育.mp3"
+    "revision": "6a6333d12ad3ade0dc924297d9998efd",
+    "url": "sounds/政治2.mp3"
   },
   {
     "revision": "492d63c7d386d0e32ee91b8a8ddff553",
     "url": "sounds/有人.mp3"
   },
   {
+    "revision": "293c267e0b9e411fb821ace9e3be60d6",
+    "url": "sounds/教育.mp3"
+  },
+  {
     "revision": "63b08b7a4ab3106e0304fcaa01179587",
     "url": "sounds/文創.mp3"
   },
   {
-    "revision": "b343a26614a2a48c523b1645f361420a",
-    "url": "sounds/方式.mp3"
+    "revision": "608c0757ad09ad93273b7250811cacf3",
+    "url": "sounds/馬上幫我.mp3"
   },
   {
-    "revision": "f8ff19440668940b11d76a42ee2a28e3",
-    "url": "img/1000.jpg"
+    "revision": "b343a26614a2a48c523b1645f361420a",
+    "url": "sounds/方式.mp3"
   },
   {
     "revision": "ee43c395e798f01adcef786e2e898674",
@@ -1628,16 +1628,16 @@ self.__precacheManifest = [
     "url": "sounds/本身.mp3"
   },
   {
-    "revision": "3a468f99075b10a59c4118e887a28236",
-    "url": "sounds/擦槍走火.mp3"
+    "revision": "676fc3501c51e0ab0c78ab0898a01cc2",
+    "url": "sounds/東.mp3"
   },
   {
     "revision": "c52ef1bcfc889f3301cf7a0172084b41",
     "url": "sounds/暴力.mp3"
   },
   {
-    "revision": "676fc3501c51e0ab0c78ab0898a01cc2",
-    "url": "sounds/東.mp3"
+    "revision": "3a468f99075b10a59c4118e887a28236",
+    "url": "sounds/擦槍走火.mp3"
   },
   {
     "revision": "c70fb7528b37c3c86487868ee275f2fc",
@@ -1664,12 +1664,12 @@ self.__precacheManifest = [
     "url": "sounds/有一天.mp3"
   },
   {
-    "revision": "0eb2617a289836fb516a1958a580351a",
-    "url": "sounds/有這麼多.mp3"
-  },
-  {
     "revision": "2c0767046117c09c6a499fffec1f885b",
     "url": "sounds/文化局局長.mp3"
+  },
+  {
+    "revision": "0eb2617a289836fb516a1958a580351a",
+    "url": "sounds/有這麼多.mp3"
   },
   {
     "revision": "035983e5d545e6f3cdee07e03b642f4e",
@@ -1696,10 +1696,6 @@ self.__precacheManifest = [
     "url": "sounds/校園.mp3"
   },
   {
-    "revision": "f12f1100dc4b88d6827deab27de3e56f",
-    "url": "sounds/激.mp3"
-  },
-  {
     "revision": "f64912dcf2907578fbdeed4ac2bfbe1b",
     "url": "sounds/根本就是個.mp3"
   },
@@ -1708,20 +1704,24 @@ self.__precacheManifest = [
     "url": "sounds/榮辱.mp3"
   },
   {
-    "revision": "b22ea173a25fc21bf6394a5faa80ec6a",
-    "url": "sounds/沒有水準.mp3"
+    "revision": "f12f1100dc4b88d6827deab27de3e56f",
+    "url": "sounds/激.mp3"
   },
   {
     "revision": "b1f93ac3abdd4dff3483312dfffb5db2",
     "url": "sounds/為什麼.mp3"
   },
   {
-    "revision": "8f50e0625764ad629e553d781f955561",
-    "url": "sounds/沒有辦法.mp3"
+    "revision": "b22ea173a25fc21bf6394a5faa80ec6a",
+    "url": "sounds/沒有水準.mp3"
   },
   {
     "revision": "bc176e22499bc9b655031f47909a99ef",
     "url": "sounds/機會2.mp3"
+  },
+  {
+    "revision": "8f50e0625764ad629e553d781f955561",
+    "url": "sounds/沒有辦法.mp3"
   },
   {
     "revision": "a3fe94822882b6b5cfdf695b36f23b4a",
@@ -1740,12 +1740,12 @@ self.__precacheManifest = [
     "url": "sounds/正義.mp3"
   },
   {
-    "revision": "818b7634cc84a2a79d6aeb38a5b34546",
-    "url": "sounds/有人扭曲我的.mp3"
-  },
-  {
     "revision": "33dc4bd11c5c73a85bd1167f6f9c952e",
     "url": "sounds/有多麼大.mp3"
+  },
+  {
+    "revision": "818b7634cc84a2a79d6aeb38a5b34546",
+    "url": "sounds/有人扭曲我的.mp3"
   },
   {
     "revision": "03a2949feb2fbf0ef3b84f2dd0e7298e",
@@ -1772,12 +1772,12 @@ self.__precacheManifest = [
     "url": "sounds/漁民.mp3"
   },
   {
-    "revision": "072bc3cec9ba5ed4c186b1d9dfe60ab7",
-    "url": "sounds/漫威.mp3"
-  },
-  {
     "revision": "ed7d1d1f09b6ce57a76e0a97d7e73de1",
     "url": "sounds/比較2.mp3"
+  },
+  {
+    "revision": "072bc3cec9ba5ed4c186b1d9dfe60ab7",
+    "url": "sounds/漫威.mp3"
   },
   {
     "revision": "89eacb52aa62df497a90d31397728729",
@@ -1804,12 +1804,12 @@ self.__precacheManifest = [
     "url": "sounds/然後.mp3"
   },
   {
-    "revision": "5be0fb9d031837c721754929e099a473",
-    "url": "sounds/此時此刻.mp3"
-  },
-  {
     "revision": "c6ca2f8d80d29368a10461494b083c27",
     "url": "sounds/洗澡.mp3"
+  },
+  {
+    "revision": "5be0fb9d031837c721754929e099a473",
+    "url": "sounds/此時此刻.mp3"
   },
   {
     "revision": "49a2fed2acf00cc9e7a5ba1233a55a4a",
@@ -1824,28 +1824,32 @@ self.__precacheManifest = [
     "url": "sounds/漫威公司.mp3"
   },
   {
-    "revision": "524696e3889e42413cc75630d4c91be0",
-    "url": "sounds/澄清.mp3"
-  },
-  {
     "revision": "d536a6c09bac44d33456b0e2b7fe91cd",
     "url": "sounds/燦爛.mp3"
+  },
+  {
+    "revision": "524696e3889e42413cc75630d4c91be0",
+    "url": "sounds/澄清.mp3"
   },
   {
     "revision": "14f260dc38834a1bf4be3f3118a2b3a6",
     "url": "sounds/為了我.mp3"
   },
   {
-    "revision": "1dfb8bfb9687db50f3d974141e86351d",
-    "url": "sounds/玩具.mp3"
-  },
-  {
     "revision": "0cb465dc9ddba978ea7a13d239b1d325",
     "url": "sounds/為什麼2.mp3"
   },
   {
+    "revision": "1dfb8bfb9687db50f3d974141e86351d",
+    "url": "sounds/玩具.mp3"
+  },
+  {
     "revision": "e00c7626088adb5f3db94aefe7f08c70",
     "url": "sounds/現在.mp3"
+  },
+  {
+    "revision": "30b5047ffae8eba5f64c6171943f0be1",
+    "url": "sounds/發.mp3"
   },
   {
     "revision": "f2ce61fcd49e1960e3b7afca8029855f",
@@ -1856,16 +1860,12 @@ self.__precacheManifest = [
     "url": "sounds/然後2.mp3"
   },
   {
-    "revision": "30b5047ffae8eba5f64c6171943f0be1",
-    "url": "sounds/發.mp3"
+    "revision": "25dd8d1d5da1dca6328a637feccfa51d",
+    "url": "sounds/發大財.mp3"
   },
   {
     "revision": "da11b7aa6424165a0e9dec7d7b2caeef",
     "url": "sounds/然後勒.mp3"
-  },
-  {
-    "revision": "25dd8d1d5da1dca6328a637feccfa51d",
-    "url": "sounds/發大財.mp3"
   },
   {
     "revision": "0a5a94486c294eed52c7da638d72a022",
@@ -1884,16 +1884,16 @@ self.__precacheManifest = [
     "url": "sounds/熱衷於.mp3"
   },
   {
+    "revision": "fa8103163fc3290abb8abae26ced6f6f",
+    "url": "sounds/氾濫情況到底有多嚴重.mp3"
+  },
+  {
     "revision": "84d8b7f0a16ff10cc9d4533880d1c3bc",
     "url": "sounds/生產.mp3"
   },
   {
     "revision": "7ba44a716c06d947ab54fad8814adf90",
     "url": "sounds/生產值.mp3"
-  },
-  {
-    "revision": "fa8103163fc3290abb8abae26ced6f6f",
-    "url": "sounds/氾濫情況到底有多嚴重.mp3"
   },
   {
     "revision": "27e4768536b8dc3e1b5de7bbf13c565c",
@@ -1904,16 +1904,16 @@ self.__precacheManifest = [
     "url": "sounds/犯罪.mp3"
   },
   {
+    "revision": "ad079855929b9553192531fd393fdf20",
+    "url": "sounds/當.mp3"
+  },
+  {
     "revision": "4bdc9b01eb76c5eca6366ab188091746",
     "url": "sounds/珍珠.mp3"
   },
   {
     "revision": "1246e903ab9767441f0485d21a875a81",
     "url": "sounds/監督.mp3"
-  },
-  {
-    "revision": "ad079855929b9553192531fd393fdf20",
-    "url": "sounds/當.mp3"
   },
   {
     "revision": "0cf1646d2c5469f2349e49a6593fe154",
@@ -1936,16 +1936,16 @@ self.__precacheManifest = [
     "url": "sounds/永遠沒有辦法解決問題.mp3"
   },
   {
-    "revision": "9aa759e4edb4eebc11ff0a357db85bff",
-    "url": "sounds/禁意.mp3"
-  },
-  {
     "revision": "a3bca6369da533e2d3a1bdde7239a866",
     "url": "sounds/的.mp3"
   },
   {
     "revision": "4f17307d21c72fd51ef98992882c69ab",
     "url": "sounds/產業鏈.mp3"
+  },
+  {
+    "revision": "9aa759e4edb4eebc11ff0a357db85bff",
+    "url": "sounds/禁意.mp3"
   },
   {
     "revision": "7d40ba1dea3940a27e4f1b4335f734cc",
@@ -1972,28 +1972,28 @@ self.__precacheManifest = [
     "url": "sounds/真的.mp3"
   },
   {
-    "revision": "ddb41a8d382063bb63e96d46a401a9e2",
-    "url": "sounds/生命力放出來以後.mp3"
-  },
-  {
     "revision": "0367dffe623237d93d0223e18c003c5b",
     "url": "sounds/發大財2.mp3"
-  },
-  {
-    "revision": "3eb9f51a2ecd2fe8cc8ac2a47e00cfa6",
-    "url": "sounds/研究.mp3"
   },
   {
     "revision": "3af705747d802675d1618f1f50b7bdcf",
     "url": "sounds/發揮.mp3"
   },
   {
-    "revision": "8d3e4577ada76ee628213d8d2d26a332",
-    "url": "sounds/硬2.mp3"
+    "revision": "ddb41a8d382063bb63e96d46a401a9e2",
+    "url": "sounds/生命力放出來以後.mp3"
+  },
+  {
+    "revision": "3eb9f51a2ecd2fe8cc8ac2a47e00cfa6",
+    "url": "sounds/研究.mp3"
   },
   {
     "revision": "2949a83efcf6808acbd132185832a04e",
     "url": "sounds/發現.mp3"
+  },
+  {
+    "revision": "8d3e4577ada76ee628213d8d2d26a332",
+    "url": "sounds/硬2.mp3"
   },
   {
     "revision": "d5bf968cdffde818df3ab43a161b999b",
@@ -2004,40 +2004,40 @@ self.__precacheManifest = [
     "url": "sounds/的時候.mp3"
   },
   {
-    "revision": "a24f03998fba2de2d38c950c68b6b3ff",
-    "url": "sounds/目標.mp3"
-  },
-  {
     "revision": "f80209cdc84ea989b3f04a91e264dd16",
     "url": "sounds/站.mp3"
   },
   {
-    "revision": "95bc62df5540b419c4ac3f425a13934d",
-    "url": "sounds/站在這裡.mp3"
+    "revision": "a24f03998fba2de2d38c950c68b6b3ff",
+    "url": "sounds/目標.mp3"
   },
   {
     "revision": "46d28193e8560875b3b0c0d1441aea33",
     "url": "sounds/經.mp3"
   },
   {
-    "revision": "e542184793aa72ff884f09d5993f2b7e",
-    "url": "sounds/站起來(激動).mp3"
-  },
-  {
-    "revision": "f971a846631aaa87b8ce8aed01b0b0e0",
-    "url": "sounds/繼續.mp3"
+    "revision": "95bc62df5540b419c4ac3f425a13934d",
+    "url": "sounds/站在這裡.mp3"
   },
   {
     "revision": "3bc2831815f12e893654cf0303a21df1",
     "url": "sounds/眼睛瞎了嗎.mp3"
   },
   {
-    "revision": "055bf2d62668e4f7e154ab29245157ff",
-    "url": "sounds/笑.mp3"
+    "revision": "e542184793aa72ff884f09d5993f2b7e",
+    "url": "sounds/站起來(激動).mp3"
   },
   {
     "revision": "a0fb33a6465cb25e0189313ef425e837",
     "url": "sounds/瞄準.mp3"
+  },
+  {
+    "revision": "f971a846631aaa87b8ce8aed01b0b0e0",
+    "url": "sounds/繼續.mp3"
+  },
+  {
+    "revision": "055bf2d62668e4f7e154ab29245157ff",
+    "url": "sounds/笑.mp3"
   },
   {
     "revision": "f61e0a6bac920ec837159871a4eb56c7",
@@ -2080,20 +2080,20 @@ self.__precacheManifest = [
     "url": "sounds/結果.mp3"
   },
   {
-    "revision": "7ff38833f0e4dbca6427eb7adf1c77ab",
-    "url": "sounds/生命力全部放出來.mp3"
-  },
-  {
     "revision": "e02edf357f43a90983485171fd587a54",
     "url": "sounds/經2.mp3"
   },
   {
-    "revision": "a36a6228ba98b2ba3391784b8493f693",
-    "url": "sounds/綠色.mp3"
+    "revision": "7ff38833f0e4dbca6427eb7adf1c77ab",
+    "url": "sounds/生命力全部放出來.mp3"
   },
   {
     "revision": "c03e2bad3862d0fd6c57ef659e2d631a",
     "url": "sounds/站起來.mp3"
+  },
+  {
+    "revision": "a36a6228ba98b2ba3391784b8493f693",
+    "url": "sounds/綠色.mp3"
   },
   {
     "revision": "1f4c0bc049cf4d34a65d2b28f7279a9c",
@@ -2108,12 +2108,12 @@ self.__precacheManifest = [
     "url": "sounds/老斯.mp3"
   },
   {
-    "revision": "331021f3be0c30f63f4b48d5b15ddf58",
-    "url": "sounds/第一.mp3"
-  },
-  {
     "revision": "4128995ce16d8f906c68383c269cf089",
     "url": "sounds/而.mp3"
+  },
+  {
+    "revision": "331021f3be0c30f63f4b48d5b15ddf58",
+    "url": "sounds/第一.mp3"
   },
   {
     "revision": "45bb1c8dfa651238c04b6b7297613d82",
@@ -2148,12 +2148,12 @@ self.__precacheManifest = [
     "url": "sounds/絕對.mp3"
   },
   {
-    "revision": "a07ece16fc15c8183255d13521ba1c9f",
-    "url": "sounds/自己.mp3"
-  },
-  {
     "revision": "b565d4d84afd7066eef998ad76a26217",
     "url": "sounds/自經區.mp3"
+  },
+  {
+    "revision": "a07ece16fc15c8183255d13521ba1c9f",
+    "url": "sounds/自己.mp3"
   },
   {
     "revision": "ece231b97e1683e45eebaf3ddd08f0f2",
@@ -2176,36 +2176,36 @@ self.__precacheManifest = [
     "url": "sounds/胡說八道.mp3"
   },
   {
-    "revision": "e8624f45f8295cdd5c556c79f325846c",
-    "url": "sounds/舒服.mp3"
-  },
-  {
     "revision": "5ecae2a1e45dce4e344bf6acb16e8d19",
     "url": "sounds/芭樂.mp3"
+  },
+  {
+    "revision": "e8624f45f8295cdd5c556c79f325846c",
+    "url": "sounds/舒服.mp3"
   },
   {
     "revision": "9a6dcc30e8a78c17b79537a777e9b392",
     "url": "sounds/蛋.mp3"
   },
   {
-    "revision": "1fcefc6c5e691cfb5ef5cdefc18f2da0",
-    "url": "sounds/行動.mp3"
-  },
-  {
     "revision": "c2952c19ad77749d101348b890599203",
     "url": "sounds/能夠.mp3"
+  },
+  {
+    "revision": "1fcefc6c5e691cfb5ef5cdefc18f2da0",
+    "url": "sounds/行動.mp3"
   },
   {
     "revision": "497c27146a29587ca576a897e2c12573",
     "url": "sounds/衝.mp3"
   },
   {
-    "revision": "9058bdbb5b4c20c20fd3a5af97e4369d",
-    "url": "sounds/裡面.mp3"
-  },
-  {
     "revision": "21c8263891bc82729343acdd50fe139b",
     "url": "sounds/裝.mp3"
+  },
+  {
+    "revision": "9058bdbb5b4c20c20fd3a5af97e4369d",
+    "url": "sounds/裡面.mp3"
   },
   {
     "revision": "ff8aaed5ee2eaf27e92eec16a0761344",
@@ -2280,16 +2280,16 @@ self.__precacheManifest = [
     "url": "sounds/誤會.mp3"
   },
   {
+    "revision": "0d34237598eacad55a48f6b339438857",
+    "url": "sounds/說2.mp3"
+  },
+  {
     "revision": "cded73bc82e77724d1344ceefbe5b3ae",
     "url": "sounds/讓.mp3"
   },
   {
     "revision": "478903936001cf674a9a7be9cecd8ad4",
     "url": "sounds/讓2.mp3"
-  },
-  {
-    "revision": "0d34237598eacad55a48f6b339438857",
-    "url": "sounds/說2.mp3"
   },
   {
     "revision": "5cf57342cfdd3b050c22c8f3c9f802ca",
@@ -2336,20 +2336,20 @@ self.__precacheManifest = [
     "url": "sounds/質詢.mp3"
   },
   {
-    "revision": "e888db96db82c710f4247e5b76693be3",
-    "url": "sounds/賽.mp3"
-  },
-  {
     "revision": "5be7b537837b3c3d79873e7983e7eca0",
     "url": "sounds/述.mp3"
   },
   {
-    "revision": "5aaa08c80fdea12e915dae4f1dc79b87",
-    "url": "sounds/贏.mp3"
+    "revision": "e888db96db82c710f4247e5b76693be3",
+    "url": "sounds/賽.mp3"
   },
   {
     "revision": "363602634ef831a400dc1fc1b990e4fc",
     "url": "sounds/舉雙手贊成.mp3"
+  },
+  {
+    "revision": "5aaa08c80fdea12e915dae4f1dc79b87",
+    "url": "sounds/贏.mp3"
   },
   {
     "revision": "e536a83dbccd39e1ff76e33c140212f4",
@@ -2416,12 +2416,12 @@ self.__precacheManifest = [
     "url": "sounds/這些.mp3"
   },
   {
-    "revision": "ebcea2abecff516af2136606c5c2cc4b",
-    "url": "sounds/身世.mp3"
-  },
-  {
     "revision": "5658d964e26d3b9758bac242219df0d5",
     "url": "sounds/這裡.mp3"
+  },
+  {
+    "revision": "ebcea2abecff516af2136606c5c2cc4b",
+    "url": "sounds/身世.mp3"
   },
   {
     "revision": "ae2eeee40dec663aee017d1e259c79bf",
@@ -2436,12 +2436,16 @@ self.__precacheManifest = [
     "url": "sounds/進來.mp3"
   },
   {
+    "revision": "276f9a6475cd871f0daa894a031fccd9",
+    "url": "sounds/輸.mp3"
+  },
+  {
     "revision": "b4d460029f30e1db2099d8b73b367867",
     "url": "sounds/轟動.mp3"
   },
   {
-    "revision": "276f9a6475cd871f0daa894a031fccd9",
-    "url": "sounds/輸.mp3"
+    "revision": "0144bc09347a2cdedf0f742b57a0ed82",
+    "url": "sounds/迅速.mp3"
   },
   {
     "revision": "2555d66be9f49465d199dc5bca55fa3b",
@@ -2450,10 +2454,6 @@ self.__precacheManifest = [
   {
     "revision": "ed58c89bb2d8b9bd412dfa3f7059a03d",
     "url": "sounds/那.mp3"
-  },
-  {
-    "revision": "0144bc09347a2cdedf0f742b57a0ed82",
-    "url": "sounds/迅速.mp3"
   },
   {
     "revision": "f20473c37c46527d9b0eeffcbca42533",
@@ -2476,16 +2476,16 @@ self.__precacheManifest = [
     "url": "sounds/都會.mp3"
   },
   {
+    "revision": "b9b4149dd071da9a905ba9c227ec5294",
+    "url": "sounds/都要說.mp3"
+  },
+  {
     "revision": "ec0955bb14d1563b9cf41ca11e5fdd4b",
     "url": "sounds/這麼多.mp3"
   },
   {
     "revision": "29079425db2f7367406412ab28d17e37",
     "url": "sounds/造謠.mp3"
-  },
-  {
-    "revision": "b9b4149dd071da9a905ba9c227ec5294",
-    "url": "sounds/都要說.mp3"
   },
   {
     "revision": "a37cf60ee4619fab59c371ecbd941eb0",
@@ -2520,10 +2520,6 @@ self.__precacheManifest = [
     "url": "sounds/都有.mp3"
   },
   {
-    "revision": "f2eeef546b439214cc26892f00082774",
-    "url": "sounds/長2.mp3"
-  },
-  {
     "revision": "9c3725307253fd2aa9899c977e3997ea",
     "url": "sounds/這個沒有問題.mp3"
   },
@@ -2532,28 +2528,32 @@ self.__precacheManifest = [
     "url": "sounds/這當然要認命一個.mp3"
   },
   {
-    "revision": "2495fc0808e390eb70d9d75025d605b4",
-    "url": "sounds/開始.mp3"
+    "revision": "f2eeef546b439214cc26892f00082774",
+    "url": "sounds/長2.mp3"
   },
   {
-    "revision": "bb7433f83e78bf8c8e3583c6bd90b6a4",
-    "url": "sounds/鄉村.mp3"
+    "revision": "2495fc0808e390eb70d9d75025d605b4",
+    "url": "sounds/開始.mp3"
   },
   {
     "revision": "9a9319fbcc7c978557c529ff41c07cc5",
     "url": "sounds/雞.mp3"
   },
   {
+    "revision": "bb7433f83e78bf8c8e3583c6bd90b6a4",
+    "url": "sounds/鄉村.mp3"
+  },
+  {
     "revision": "d5deaa5a0b8c139208b363c21110a844",
     "url": "sounds/雞腿.mp3"
   },
   {
-    "revision": "26dd41b4a93789e5c2f2fd143e840ac6",
-    "url": "sounds/釋放出來.mp3"
-  },
-  {
     "revision": "f76dc8b9f4bc30cdc1d41a6df45b12df",
     "url": "sounds/關心.mp3"
+  },
+  {
+    "revision": "26dd41b4a93789e5c2f2fd143e840ac6",
+    "url": "sounds/釋放出來.mp3"
   },
   {
     "revision": "8f98a316699b3005b5eeac73d0f9cdf0",
@@ -2612,12 +2612,12 @@ self.__precacheManifest = [
     "url": "sounds/長久以來.mp3"
   },
   {
-    "revision": "91fabdfe3f4ccc35c9b83e475da1ffca",
-    "url": "sounds/面.mp3"
-  },
-  {
     "revision": "02d9cf80723b3fcecb2194bb046b1feb",
     "url": "sounds/陽光.mp3"
+  },
+  {
+    "revision": "91fabdfe3f4ccc35c9b83e475da1ffca",
+    "url": "sounds/面.mp3"
   },
   {
     "revision": "740859a8a977058cab2957ef9137aa48",
@@ -2648,24 +2648,24 @@ self.__precacheManifest = [
     "url": "sounds/還沒有完全釋放出來.mp3"
   },
   {
-    "revision": "0aa57757f8be54f2a458daedf97346f6",
-    "url": "sounds/青少年.mp3"
-  },
-  {
     "revision": "ad89a753b5d175705cc7d2235db9f01c",
     "url": "sounds/館長.mp3"
+  },
+  {
+    "revision": "0aa57757f8be54f2a458daedf97346f6",
+    "url": "sounds/青少年.mp3"
   },
   {
     "revision": "329ca7dee8334e592c57184c09ba60af",
     "url": "sounds/高.mp3"
   },
   {
-    "revision": "87c96bcbbe694bcf28da2d9fe8cc677d",
-    "url": "sounds/非常2.mp3"
-  },
-  {
     "revision": "4e5eba7011b59a7d1ad19cdd527cb85a",
     "url": "sounds/高雄市.mp3"
+  },
+  {
+    "revision": "87c96bcbbe694bcf28da2d9fe8cc677d",
+    "url": "sounds/非常2.mp3"
   },
   {
     "revision": "1e8ca68663be82f073a7a429f2e29f5e",
@@ -2720,16 +2720,16 @@ self.__precacheManifest = [
     "url": "sounds/非常好的.mp3"
   },
   {
-    "revision": "e5ba51fe5dcc88d437666ebff54cf0af",
-    "url": "sounds/高雄市市長.mp3"
-  },
-  {
     "revision": "84da2c006969051cb66f8abcc7652d07",
     "url": "sounds/非常得痛苦.mp3"
   },
   {
     "revision": "0a6063d861927730a27cc0e66215fed0",
     "url": "sounds/非常的重要.mp3"
+  },
+  {
+    "revision": "e5ba51fe5dcc88d437666ebff54cf0af",
+    "url": "sounds/高雄市市長.mp3"
   },
   {
     "revision": "1ff558bd63604d72e536c6fca6312c3a",
@@ -2748,36 +2748,36 @@ self.__precacheManifest = [
     "url": "sounds/麻煩你回去.mp3"
   },
   {
-    "revision": "608c0757ad09ad93273b7250811cacf3",
-    "url": "sounds/馬上幫我.mp3"
-  },
-  {
-    "revision": "7dc6db625f522e5160b585fd2a9b09ab",
-    "url": "sounds/黑阿.mp3"
-  },
-  {
-    "revision": "b3eda35da86a441d0924260f9bc7bc09",
-    "url": "sounds/馬上縮回去.mp3"
-  },
-  {
-    "revision": "def37d8e8c33c73e0646e6fe72dcdf8f",
-    "url": "sounds/鼓勵.mp3"
-  },
-  {
-    "revision": "229b9da1784c02c7575386810fe87aca",
-    "url": "sounds/高雄發大財2.mp3"
-  },
-  {
     "revision": "efb4be92602ae8e7d146f200ef5249a3",
     "url": "img/m04.png"
+  },
+  {
+    "revision": "f8ff19440668940b11d76a42ee2a28e3",
+    "url": "img/1000.jpg"
+  },
+  {
+    "revision": "59771276776785c5b4a89a2cbe80a9f9",
+    "url": "img/money-bag192.png"
+  },
+  {
+    "revision": "a0f22ec879058b324941ed0352f4cd99",
+    "url": "img/title.png"
+  },
+  {
+    "revision": "63723712468a105262d3376ca7253d65",
+    "url": "img/loveriver.jpg"
   },
   {
     "revision": "cde6ec76fbfdc8deba7b04edce140f4a",
     "url": "img/m03.png"
   },
   {
-    "revision": "32b7b818d17513e536331bbf314e1de6",
-    "url": "sounds/間隔(3秒).mp3"
+    "revision": "3e4c815f5e92dbf93041d30850cbf1d0",
+    "url": "img/money-bag512.png"
+  },
+  {
+    "revision": "63723712468a105262d3376ca7253d65",
+    "url": "img/loveriver.63723712.jpg"
   },
   {
     "revision": "8d6e4c8dc6ff111d0272896bb626b09b",
@@ -2788,15 +2788,15 @@ self.__precacheManifest = [
     "url": "img/m02.png"
   },
   {
-    "revision": "7b3961fb57475ed9d4147aa6617f8da8",
-    "url": "sounds/間隔(5秒).mp3"
+    "revision": "a0f22ec879058b324941ed0352f4cd99",
+    "url": "img/title.a0f22ec8.png"
   },
   {
-    "revision": "af4df0fe8c8b54ff2c96ca97bc53bea0",
-    "url": "sounds/礦泉水.mp3"
+    "revision": "87aaab8a81fad1da4984",
+    "url": "css/chunk-vendors.9e83d6c7.css"
   },
   {
-    "revision": "af9197887cd645f3ff9f6b4a2232fdea",
-    "url": "img/title.psd"
+    "revision": "e0f526efebea9fbe4c13",
+    "url": "css/app.ecdc7aa4.css"
   }
 ];

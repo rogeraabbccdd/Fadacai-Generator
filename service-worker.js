@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.ba51a6d9bdd304fb4178cf38e85bc822.js"
+  "precache-manifest.17453419e0b047a996bb3f07dd0d8862.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fadacai"});
