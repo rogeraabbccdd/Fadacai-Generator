@@ -6,6 +6,25 @@
 
 ![預覽圖](https://raw.githubusercontent.com/rogeraabbccdd/Fadacai-Generator/master/screenshot.jpg)
 
+## 使用方式
+### 系統需求
+- [NodeJS](https://nodejs.org/en/)，本人的開發環境版本為 `v10.15.3`
+- [Vue CLI](https://cli.vuejs.org/)，本人的開發環境版本為 `3.7.0`
+### 安裝
+下載 `master` 分支後切換到目錄，執行
+```
+npm install
+````
+### 本地伺服器
+```
+npm run serve
+````
+
+### 建置
+```
+npm run build
+```
+
 ## 更新紀錄
 ### 1.0.1 (2019/05/16  02:18)
 - 新增 5 個音檔，`立足台灣`、`胸懷大陸`、`放眼世界`、`征服宇宙`、`發大財`
