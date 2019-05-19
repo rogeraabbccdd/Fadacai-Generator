@@ -62,6 +62,6 @@ npm run build
 - 修改彈出提示的效果
 - 新增 474 個音檔 (感謝 [巴哈串138樓](https://forum.gamer.com.tw/Co.php?bsn=60076&sn=58257213&subbsn=0&bPage=0))
 
-## 1.4.0 (2019/05/19 01:10)
+### 1.4.0 (2019/05/19 01:10)
 - 動態修改url ([#14](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/14))
 - 新增三個隨機按紐 ([#15](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/15))
