@@ -77,6 +77,51 @@ export default {
   data() {
     let snds = [];
     let shortText = "";
+    if (this.sids != undefined && this.sids.length > 0) {
+      let querys = this.sids.split(",");
+      if (querys.length > 0) {
+        // loop all url query
+        for (let i = 0; i < querys.length; i++) {
+          // find it in sound list
+          let isIn = -1;
+          for (let j = 0; j < this.sounds.length; j++) {
+            let id = this.sounds[j].id;
+            if (id == querys[i]) {
+              isIn = j;
+              break;
+            }
+          }
+          if (isIn > -1) {
+            snds.push({
+              file: this.sounds[isIn].file,
+              name: this.sounds[isIn].name,
+              id: this.sounds[isIn].id
+            });
+          }
+        }
+      }
+    } else if (this.query != undefined && this.query.length > 0) {
+      let querys = this.query.split(",");
+      if (querys.length > 0) {
+        for (let i = 0; i < querys.length; i++) {
+          let isIn = -1;
+          for (let j = 0; i < this.sounds.length; j++) {
+            let name = this.sounds[j].name;
+            if (name == querys[i]) {
+              isIn = j;
+              break;
+            }
+          }
+          if (isIn > -1) {
+            snds.push({
+              file: this.sounds[isIn].file,
+              name: this.sounds[isIn].name,
+              id: this.sounds[isIn].id
+            });
+          }
+        }
+      }
+    }
     return {
       snds,
       shortText
@@ -213,55 +258,6 @@ export default {
     }
   },
   watch: {
-    // use watch because ajax sound list has delay
-    // load url when sound list is ready
-    sounds: function(newVal) {
-      if (this.sids != undefined && this.sids.length > 0) {
-        let querys = this.sids.split(",");
-        if (querys.length > 0) {
-          // loop all url query
-          for (let i = 0; i < querys.length; i++) {
-            // find it in sound list
-            let isIn = -1;
-            for (let j = 0; j < newVal.length; j++) {
-              let id = newVal[j].id;
-              if (id == querys[i]) {
-                isIn = j;
-                break;
-              }
-            }
-            if (isIn > -1) {
-              this.snds.push({
-                file: newVal[isIn].file,
-                name: newVal[isIn].name,
-                id: newVal[isIn].id
-              });
-            }
-          }
-        }
-      } else if (this.query != undefined && this.query.length > 0) {
-        let querys = this.query.split(",");
-        if (querys.length > 0) {
-          for (let i = 0; i < querys.length; i++) {
-            let isIn = -1;
-            for (let j = 0; i < newVal.length; j++) {
-              let name = newVal[j].name;
-              if (name == querys[i]) {
-                isIn = j;
-                break;
-              }
-            }
-            if (isIn > -1) {
-              this.snds.push({
-                file: newVal[isIn].file,
-                name: newVal[isIn].name,
-                id: newVal[isIn].id
-              });
-            }
-          }
-        }
-      }
-    },
     snds: function(newVal) {
       let url = "";
       for (let i = 0; i < newVal.length; i++) {

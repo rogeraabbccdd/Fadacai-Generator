@@ -1,5 +1,5 @@
 <template>
-  <b-card title="所有聲音" sub-title>
+  <b-card title="所有聲音" sub-title="點一下可以預覽聲音，點兩下可以新增聲音">
     <hr />
     <div class="row align-items-center">
       <div class="col-12 my-2">
@@ -25,7 +25,7 @@
           v-for="(s, idx) in this.filtered"
           :key="idx"
           variant="success"
-          @click="add(s.id)"
+          @click="click(s.id)"
           >{{ s.name }}</b-button
         >
       </div>
@@ -41,17 +41,55 @@ export default {
   },
   data() {
     let search = "";
+    let clicks = 0;
     return {
-      search
+      search,
+      clicks
     };
   },
   methods: {
-    add(id) {
-      eventBus.$emit("addSound", id);
-    },
     random(count) {
-      for (let i = 0; i < count; i++)
-        this.add(Math.floor(Math.random() * this.sounds.length));
+      for (let i = 0; i < count; i++) {
+        let rand = Math.floor(Math.random() * this.sounds.length);
+        // preload sound
+        let audio = new Audio();
+        let isIn = -1;
+        for (let i = 0; i < this.sounds.length; i++) {
+          if (rand == this.sounds[i].id) {
+            isIn = i;
+            break;
+          }
+        }
+        audio.src = this.sounds[isIn].file;
+        audio.preload = "auto";
+        eventBus.$emit("addSound", rand);
+      }
+    },
+    click(id) {
+      this.clicks++;
+      let audio = new Audio();
+      let isIn = -1;
+      for (let i = 0; i < this.sounds.length; i++) {
+        if (id == this.sounds[i].id) {
+          isIn = i;
+          break;
+        }
+      }
+      if (isIn > -1) {
+        audio.src = this.sounds[isIn].file;
+        audio.preload = "auto";
+      }
+      if (this.clicks === 1) {
+        let self = this;
+        this.timer = setTimeout(function() {
+          self.clicks = 0;
+          if (isIn > -1) audio.play();
+        }, 500);
+      } else {
+        clearTimeout(this.timer);
+        this.clicks = 0;
+        eventBus.$emit("addSound", id);
+      }
     }
   },
   computed: {

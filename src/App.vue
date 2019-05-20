@@ -19,7 +19,7 @@
       </css-doodle>
     </div>
     <router-view />
-    <div class="text-center">
+    <div class="col-12 my-3 text-center">
       <gh-btns-watch
         slug="rogeraabbccdd/Fadacai-Generator"
         show-count
@@ -32,6 +32,7 @@
         slug="rogeraabbccdd/Fadacai-Generator"
         show-count
       ></gh-btns-fork>
+      <hr />
     </div>
   </div>
 </template>
@@ -41,6 +42,10 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif, "Microsoft JHengHei";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.gh-button-container {
+  float: none;
 }
 
 #bg {
@@ -56,14 +61,11 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.gh-button-container {
-  float: none;
-}
 </style>
 
 <script>
 import "css-doodle";
 import "vue-github-buttons/dist/vue-github-buttons.css";
+
 export default {};
 </script>
