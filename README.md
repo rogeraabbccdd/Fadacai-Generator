@@ -1,8 +1,9 @@
 # 發大財產生器
 跟著韓總一起讓高雄發大財!  
-- 立刻發大財  https://rogeraabbccdd.github.io/Fadacai-Generator/  
-- 巴哈討論串  https://forum.gamer.com.tw/C.php?bsn=60076&snA=5109856
-- 八卦版討論串 (非本人PO文) https://www.ptt.cc/bbs/Gossiping/M.1557980631.A.0FA.html
+- [點我立刻發大財](https://rogeraabbccdd.github.io/Fadacai-Generator/)  
+- [巴哈討論串](https://forum.gamer.com.tw/C.php?bsn=60076&snA=5109856)
+- [八卦版討論串 (非本人PO文)](https://www.ptt.cc/bbs/Gossiping/M.1557980631.A.0FA.html)
+- [發大財電腦桌布](https://github.com/rogeraabbccdd/Fadacai-Wallpaper)
 
 ![預覽圖](https://raw.githubusercontent.com/rogeraabbccdd/Fadacai-Generator/master/screenshot.jpg)
 
