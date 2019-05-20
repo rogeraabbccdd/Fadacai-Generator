@@ -65,3 +65,9 @@ npm run build
 ### 1.4.0 (2019/05/19 01:10)
 - 動態修改url ([#14](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/14))
 - 新增三個隨機按紐 ([#15](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/15))
+
+### 1.5.0 (2019/05/20 15:35)
+- 優化音檔資料的載入方式
+- 優化音檔的載入時機 ([#8](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/8))
+- 新增聲音區預覽音檔功能
+- 新增韓語錄
