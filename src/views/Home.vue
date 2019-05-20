@@ -54,7 +54,6 @@ import soundbtns from "../components/soundbtns.vue";
 import sounds from "../assets/js/soundList.js";
 import quotes from "../assets/js/quote.js";
 // import { setTimeout } from "timers";
-import "../assets/css/loading.css";
 
 export default {
   name: "home",
