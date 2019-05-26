@@ -33,7 +33,7 @@
       <font-awesome-icon :icon="['far', 'trash-alt']" />&nbsp;清空
     </b-button>
     <b-button class="m-1" variant="success" @click="getUrl()">
-      <font-awesome-icon icon="link" />&nbsp;匯出
+      <font-awesome-icon icon="link" />&nbsp;短網址
     </b-button>
     <b-button class="m-1" variant="info" @click="downloadFile()">
       <font-awesome-icon icon="download" />&nbsp;下載
@@ -59,7 +59,7 @@
 
 <script>
 import Vue from "vue";
-import Crunker from "crunker";
+// import Crunker from "crunker";
 import { eventBus } from "../main.js";
 import draggable from "vuedraggable";
 let nowPlaying = -1;
@@ -92,6 +92,9 @@ export default {
             }
           }
           if (isIn > -1) {
+            let audio = new Audio();
+            audio.src = this.sounds[isIn].file;
+            audio.preload = "auto";
             snds.push({
               file: this.sounds[isIn].file,
               name: this.sounds[isIn].name,
@@ -113,6 +116,10 @@ export default {
             }
           }
           if (isIn > -1) {
+            let audio = new Audio();
+            audio.preload = "auto";
+            audio.src = this.sounds[isIn].file;
+            audio.preload = "auto";
             snds.push({
               file: this.sounds[isIn].file,
               name: this.sounds[isIn].name,
@@ -200,16 +207,21 @@ export default {
         });
     },
     downloadFile() {
-      const selectedSounds = this.snds.map(snd => snd.file);
-      const audio = new Crunker();
-      audio
-        .fetchAudio(...selectedSounds)
-        .then(buffers => audio.concatAudio(buffers))
-        .then(merged => audio.export(merged, "audio/mp3"))
-        .then(output => audio.download(output.blob, "fadacai"))
-        .catch(error => {
-          throw new Error(error);
-        });
+      Vue.swal({
+        text: "音檔下載功能維修中 :(",
+        type: "error"
+      });
+      // Disable download untill we fix it.
+      // const selectedSounds = this.snds.map(snd => snd.file);
+      // const audio = new Crunker();
+      // audio
+      //   .fetchAudio(...selectedSounds)
+      //   .then(buffers => audio.concatAudio(buffers))
+      //   .then(merged => audio.export(merged, "audio/mp3"))
+      //   .then(output => audio.download(output.blob, "fadacai"))
+      //   .catch(error => {
+      //     throw new Error(error);
+      //   });
     },
     remove(idx) {
       if (!isPlaying) {

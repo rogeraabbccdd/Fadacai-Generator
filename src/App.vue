@@ -44,6 +44,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.swal2-content {
+  font-family: "Avenir", Helvetica, Arial, sans-serif, "Microsoft JHengHei";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .gh-button-container {
   float: none;
 }

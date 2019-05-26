@@ -821,17 +821,17 @@ let sounds = [
   },
   {
     file: "./sounds/間隔(1秒).mp3",
-    name: "間隔(1秒)",
+    name: "(間隔1秒)",
     id: 165
   },
   {
     file: "./sounds/間隔(3秒).mp3",
-    name: "間隔(3秒)",
+    name: "(間隔3秒)",
     id: 166
   },
   {
     file: "./sounds/間隔(5秒).mp3",
-    name: "間隔(5秒)",
+    name: "(間隔5秒)",
     id: 167
   },
   {
@@ -3393,6 +3393,11 @@ let sounds = [
     file: "./sounds/石油.mp3",
     name: "石油",
     id: 680
+  },
+  {
+    file: "./sounds/Yes I Do.mp3",
+    name: "Yes I Do",
+    id: 681
   }
 ];
 

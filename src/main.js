@@ -21,11 +21,22 @@ import {
   faPlay,
   faStop,
   faLink,
-  faDownload
+  faDownload,
+  faChevronUp,
+  faChevronDown
 } from "@fortawesome/free-solid-svg-icons";
 import { faTrashAlt } from "@fortawesome/free-regular-svg-icons";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-library.add(faPlay, faStop, faLink, faDownload, faTrashAlt, faFacebookF);
+library.add(
+  faPlay,
+  faStop,
+  faLink,
+  faDownload,
+  faTrashAlt,
+  faFacebookF,
+  faChevronUp,
+  faChevronDown
+);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 import VueAnalytics from "vue-analytics";
