@@ -72,3 +72,11 @@ npm run build
 - 優化音檔的載入時機 ([#8](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/8))
 - 新增聲音區預覽音檔功能
 - 新增韓語錄
+
+### 1.6.0 (2019/05/27 01:46)
+- 重新處理音檔，平衡音檔音量
+- 暫時停用下載功能 ([#13](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/13))
+- 韓語錄新增所有維基語錄的句子
+- 新增音檔 `Yes I Do`
+- 音檔依字數分區 ([#4](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/4))
+- 優化音檔的載入時機 ([#8](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/8))
