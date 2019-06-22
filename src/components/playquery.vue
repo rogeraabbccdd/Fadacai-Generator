@@ -35,9 +35,6 @@
     <b-button class="m-1" variant="success" @click="getUrl()">
       <font-awesome-icon icon="link" />&nbsp;短網址
     </b-button>
-    <b-button class="m-1" variant="info" @click="downloadFile()">
-      <font-awesome-icon icon="download" />&nbsp;下載
-    </b-button>
     <b-button class="m-1" variant="facebook" @click="shareFacebook()">
       <font-awesome-icon :icon="['fab', 'facebook-f']" />&nbsp;分享
     </b-button>
@@ -204,25 +201,27 @@ export default {
             text: "分享短網址已複製到剪貼簿",
             type: "success"
           });
+        })
+        .catch(function() {
+          Vue.swal({
+            text: "錯誤，無法產生短網址",
+            type: "error"
+          });
+          this.shortText = "短網址產生失敗...";
         });
     },
-    downloadFile() {
-      Vue.swal({
-        text: "音檔下載功能維修中 :(",
-        type: "error"
-      });
-      // Disable download untill we fix it.
-      // const selectedSounds = this.snds.map(snd => snd.file);
-      // const audio = new Crunker();
-      // audio
-      //   .fetchAudio(...selectedSounds)
-      //   .then(buffers => audio.concatAudio(buffers))
-      //   .then(merged => audio.export(merged, "audio/mp3"))
-      //   .then(output => audio.download(output.blob, "fadacai"))
-      //   .catch(error => {
-      //     throw new Error(error);
-      //   });
-    },
+    // downloadFile() {
+    //   const selectedSounds = this.snds.map(snd => snd.file);
+    //   const audio = new Crunker({ sampleRate: 44100 });
+    //   audio
+    //     .fetchAudio(...selectedSounds)
+    //     .then(buffers => audio.concatAudio(buffers))
+    //     .then(merged => audio.export(merged, "audio/mp3"))
+    //     .then(output => audio.download(output.blob, "fadacai"))
+    //     .catch(error => {
+    //       throw new Error(error);
+    //     });
+    // },
     remove(idx) {
       if (!isPlaying) {
         this.snds.splice(idx, 1);
