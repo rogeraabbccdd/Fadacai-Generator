@@ -80,3 +80,8 @@ npm run build
 - 新增音檔 `Yes I Do`
 - 音檔依字數分區 ([#4](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/4))
 - 優化音檔的載入時機 ([#8](https://github.com/rogeraabbccdd/Fadacai-Generator/issues/8))
+
+### 1.7.0 (2019/06/22 22:50)
+- 修改app icon
+- 移除下載按鈕
+- 新增短網址產生失敗的訊息
