@@ -7,10 +7,6 @@
           <p class="mb-0">{{ quote }}</p>
           <footer class="blockquote-footer text-white">韓國瑜</footer>
         </blockquote>
-        <!--   <h5 class="text-white text-center d-inline-block lead">
-          {{ quote }}
-        </h5>
-        <p class="text-white text-center d-inline-block">- 韓國瑜</p> -->
       </div>
       <div class="col-12 mb-3">
         <playquery :sounds="sounds" :query="query" :sids="sids"></playquery>
@@ -49,10 +45,10 @@
 </style>
 
 <script>
-import playquery from "../components/playquery.vue";
-import soundbtns from "../components/soundbtns.vue";
-import sounds from "../assets/js/soundList.js";
-import quotes from "../assets/js/quote.js";
+import playquery from "@/components/playquery.vue";
+import soundbtns from "@/components/soundbtns.vue";
+import sounds from "@/assets/js/soundList.js";
+import quotes from "@/assets/js/quote.js";
 // import { setTimeout } from "timers";
 
 export default {

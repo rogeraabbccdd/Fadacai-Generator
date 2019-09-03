@@ -3398,6 +3398,421 @@ let sounds = [
     file: "./sounds/Yes I Do.mp3",
     name: "Yes I Do",
     id: 681
+  },
+  {
+    file: "./sounds/38年前.mp3",
+    name: "38年前",
+    id: 682
+  },
+  {
+    file: "./sounds/719.mp3",
+    name: "719",
+    id: 683
+  },
+  {
+    file: "./sounds/American.mp3",
+    name: "American",
+    id: 684
+  },
+  {
+    file: "./sounds/Big Boss.mp3",
+    name: "Big Boss",
+    id: 685
+  },
+  {
+    file: "./sounds/Club.mp3",
+    name: "Club",
+    id: 686
+  },
+  {
+    file: "./sounds/College.mp3",
+    name: "College",
+    id: 687
+  },
+  {
+    file: "./sounds/Fresh.mp3",
+    name: "Fresh",
+    id: 688
+  },
+  {
+    file: "./sounds/Freshman.mp3",
+    name: "Freshman",
+    id: 689
+  },
+  {
+    file: "./sounds/Go Away.mp3",
+    name: "Go Away",
+    id: 690
+  },
+  {
+    file: "./sounds/Guard.mp3",
+    name: "Guard",
+    id: 691
+  },
+  {
+    file: "./sounds/Member.mp3",
+    name: "Member",
+    id: 692
+  },
+  {
+    file: "./sounds/OK.mp3",
+    name: "OK",
+    id: 693
+  },
+  {
+    file: "./sounds/Please.mp3",
+    name: "Please",
+    id: 694
+  },
+  {
+    file: "./sounds/Security.mp3",
+    name: "Security",
+    id: 695
+  },
+  {
+    file: "./sounds/Student.mp3",
+    name: "Student",
+    id: 696
+  },
+  {
+    file: "./sounds/Thank You.mp3",
+    name: "Thank You",
+    id: 697
+  },
+  {
+    file: "./sounds/上班.mp3",
+    name: "上班",
+    id: 698
+  },
+  {
+    file: "./sounds/不可思議.mp3",
+    name: "不可思議",
+    id: 699
+  },
+  {
+    file: "./sounds/不管怎麼樣.mp3",
+    name: "不管怎麼樣",
+    id: 700
+  },
+  {
+    file: "./sounds/不能原諒.mp3",
+    name: "不能原諒",
+    id: 701
+  },
+  {
+    file: "./sounds/中午.mp3",
+    name: "中午",
+    id: 702
+  },
+  {
+    file: "./sounds/也就代表.mp3",
+    name: "也就代表",
+    id: 703
+  },
+  {
+    file: "./sounds/乾淨.mp3",
+    name: "乾淨",
+    id: 704
+  },
+  {
+    file: "./sounds/乾淨的高雄.mp3",
+    name: "乾淨的高雄",
+    id: 705
+  },
+  {
+    file: "./sounds/來電話了.mp3",
+    name: "來電話了",
+    id: 706
+  },
+  {
+    file: "./sounds/侵襲.mp3",
+    name: "侵襲",
+    id: 707
+  },
+  {
+    file: "./sounds/先生.mp3",
+    name: "先生",
+    id: 708
+  },
+  {
+    file: "./sounds/原諒.mp3",
+    name: "原諒",
+    id: 709
+  },
+  {
+    file: "./sounds/善後.mp3",
+    name: "善後",
+    id: 710
+  },
+  {
+    file: "./sounds/善後的工作.mp3",
+    name: "善後的工作",
+    id: 711
+  },
+  {
+    file: "./sounds/團隊.mp3",
+    name: "團隊",
+    id: 712
+  },
+  {
+    file: "./sounds/大老闆.mp3",
+    name: "大老闆",
+    id: 713
+  },
+  {
+    file: "./sounds/奇幻之旅.mp3",
+    name: "奇幻之旅",
+    id: 714
+  },
+  {
+    file: "./sounds/女士.mp3",
+    name: "女士",
+    id: 715
+  },
+  {
+    file: "./sounds/好朋友.mp3",
+    name: "好朋友",
+    id: 716
+  },
+  {
+    file: "./sounds/小心.mp3",
+    name: "小心",
+    id: 717
+  },
+  {
+    file: "./sounds/就任.mp3",
+    name: "就任",
+    id: 718
+  },
+  {
+    file: "./sounds/就任以來.mp3",
+    name: "就任以來",
+    id: 719
+  },
+  {
+    file: "./sounds/展示.mp3",
+    name: "展示",
+    id: 720
+  },
+  {
+    file: "./sounds/工作.mp3",
+    name: "工作",
+    id: 721
+  },
+  {
+    file: "./sounds/市民.mp3",
+    name: "市民",
+    id: 722
+  },
+  {
+    file: "./sounds/市民朋友.mp3",
+    name: "市民朋友",
+    id: 723
+  },
+  {
+    file: "./sounds/我一直講.mp3",
+    name: "我一直講",
+    id: 724
+  },
+  {
+    file: "./sounds/所有.mp3",
+    name: "所有",
+    id: 725
+  },
+  {
+    file: "./sounds/所有的縣市.mp3",
+    name: "所有的縣市",
+    id: 726
+  },
+  {
+    file: "./sounds/抬頭挺胸.mp3",
+    name: "抬頭挺胸",
+    id: 727
+  },
+  {
+    file: "./sounds/撲過來.mp3",
+    name: "撲過來",
+    id: 728
+  },
+  {
+    file: "./sounds/效率.mp3",
+    name: "效率",
+    id: 729
+  },
+  {
+    file: "./sounds/整理.mp3",
+    name: "整理",
+    id: 730
+  },
+  {
+    file: "./sounds/整理的工作.mp3",
+    name: "整理的工作",
+    id: 731
+  },
+  {
+    file: "./sounds/榮幸.mp3",
+    name: "榮幸",
+    id: 732
+  },
+  {
+    file: "./sounds/正眼看著他.mp3",
+    name: "正眼看著他",
+    id: 733
+  },
+  {
+    file: "./sounds/水退的都非常的快.mp3",
+    name: "水退的都非常的快",
+    id: 734
+  },
+  {
+    file: "./sounds/注意.mp3",
+    name: "注意",
+    id: 735
+  },
+  {
+    file: "./sounds/清理.mp3",
+    name: "清理",
+    id: 736
+  },
+  {
+    file: "./sounds/清理的工作.mp3",
+    name: "清理的工作",
+    id: 737
+  },
+  {
+    file: "./sounds/演講.mp3",
+    name: "演講",
+    id: 738
+  },
+  {
+    file: "./sounds/生活費.mp3",
+    name: "生活費",
+    id: 739
+  },
+  {
+    file: "./sounds/當小心未小心的.mp3",
+    name: "當小心未小心的",
+    id: 740
+  },
+  {
+    file: "./sounds/當注意而未注意的.mp3",
+    name: "當注意而未注意的",
+    id: 741
+  },
+  {
+    file: "./sounds/當防範未防範.mp3",
+    name: "當防範未防範",
+    id: 742
+  },
+  {
+    file: "./sounds/發生事情.mp3",
+    name: "發生事情",
+    id: 743
+  },
+  {
+    file: "./sounds/直接.mp3",
+    name: "直接",
+    id: 744
+  },
+  {
+    file: "./sounds/看一下.mp3",
+    name: "看一下",
+    id: 745
+  },
+  {
+    file: "./sounds/真功夫.mp3",
+    name: "真功夫",
+    id: 746
+  },
+  {
+    file: "./sounds/真本領.mp3",
+    name: "真本領",
+    id: 747
+  },
+  {
+    file: "./sounds/窮學生.mp3",
+    name: "窮學生",
+    id: 748
+  },
+  {
+    file: "./sounds/第一個.mp3",
+    name: "第一個",
+    id: 749
+  },
+  {
+    file: "./sounds/第一次.mp3",
+    name: "第一次",
+    id: 750
+  },
+  {
+    file: "./sounds/美國商會.mp3",
+    name: "美國商會",
+    id: 751
+  },
+  {
+    file: "./sounds/蘇院長.mp3",
+    name: "蘇院長",
+    id: 752
+  },
+  {
+    file: "./sounds/行政效率.mp3",
+    name: "行政效率",
+    id: 753
+  },
+  {
+    file: "./sounds/行政院.mp3",
+    name: "行政院",
+    id: 754
+  },
+  {
+    file: "./sounds/講.mp3",
+    name: "講",
+    id: 755
+  },
+  {
+    file: "./sounds/豪大雨.mp3",
+    name: "豪大雨",
+    id: 756
+  },
+  {
+    file: "./sounds/速度.mp3",
+    name: "速度",
+    id: 757
+  },
+  {
+    file: "./sounds/野狼摩托車.mp3",
+    name: "野狼摩托車",
+    id: 758
+  },
+  {
+    file: "./sounds/關心2.mp3",
+    name: "關心2",
+    id: 759
+  },
+  {
+    file: "./sounds/防範.mp3",
+    name: "防範",
+    id: 760
+  },
+  {
+    file: "./sounds/電話.mp3",
+    name: "電話",
+    id: 761
+  },
+  {
+    file: "./sounds/非常榮幸.mp3",
+    name: "非常榮幸",
+    id: 762
+  },
+  {
+    file: "./sounds/颱風.mp3",
+    name: "颱風",
+    id: 763
+  },
+  {
+    file: "./sounds/高雄市民朋友.mp3",
+    name: "高雄市民朋友",
+    id: 764
   }
 ];
 

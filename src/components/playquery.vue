@@ -41,7 +41,7 @@
     <input type="hidden" value ref="shortInput" />
     <p v-if="shortText.length > 1">
       分享短網址:
-      <a :href="shortText">{{ shortText }}</a>
+      <a :href="shortUrl">{{ shortText }}</a>
     </p>
   </b-card>
 </template>
@@ -73,6 +73,7 @@ export default {
   },
   data() {
     let snds = [];
+    let shortUrl = "#";
     let shortText = "";
     if (this.sids != undefined && this.sids.length > 0) {
       let querys = this.sids.split(",");
@@ -128,7 +129,8 @@ export default {
     }
     return {
       snds,
-      shortText
+      shortText,
+      shortUrl
     };
   },
   methods: {
@@ -184,6 +186,7 @@ export default {
     },
     getUrl() {
       this.shortText = "短網址產生中...";
+      let _this = this;
       // get short url
       let shortInput = this.$refs.shortInput;
       this.$http
@@ -193,21 +196,31 @@ export default {
         .then(data => {
           shortInput.value = data.data;
           this.shortText = data.data;
+          this.shortUrl = data.data;
           shortInput.setAttribute("type", "text");
           shortInput.select();
           document.execCommand("copy");
           shortInput.setAttribute("type", "hidden");
           Vue.swal({
             text: "分享短網址已複製到剪貼簿",
-            type: "success"
+            type: "success",
+            buttonsStyling: false,
+            customClass: {
+              confirmButton: "btn btn-success"
+            }
           });
         })
         .catch(function() {
+          _this.shortText = "短網址產生失敗...";
+          _this.shortUrl = "#";
           Vue.swal({
             text: "錯誤，無法產生短網址",
-            type: "error"
+            type: "error",
+            buttonsStyling: false,
+            customClass: {
+              confirmButton: "btn btn-danger"
+            }
           });
-          this.shortText = "短網址產生失敗...";
         });
     },
     // downloadFile() {
