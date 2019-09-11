@@ -3813,6 +3813,186 @@ let sounds = [
     file: "./sounds/高雄市民朋友.mp3",
     name: "高雄市民朋友",
     id: 764
+  },
+  {
+    file: "./sounds/不對.mp3",
+    name: "不對",
+    id: 765
+  },
+  {
+    file: "./sounds/不想講.mp3",
+    name: "不想講",
+    id: 766
+  },
+  {
+    file: "./sounds/修正.mp3",
+    name: "修正",
+    id: 767
+  },
+  {
+    file: "./sounds/分開.mp3",
+    name: "分開",
+    id: 768
+  },
+  {
+    file: "./sounds/動的非常的厲害.mp3",
+    name: "動的非常的厲害",
+    id: 769
+  },
+  {
+    file: "./sounds/司法.mp3",
+    name: "司法",
+    id: 770
+  },
+  {
+    file: "./sounds/司法獨立.mp3",
+    name: "司法獨立",
+    id: 771
+  },
+  {
+    file: "./sounds/含.mp3",
+    name: "含",
+    id: 772
+  },
+  {
+    file: "./sounds/國家.mp3",
+    name: "國家",
+    id: 773
+  },
+  {
+    file: "./sounds/國家機器.mp3",
+    name: "國家機器",
+    id: 774
+  },
+  {
+    file: "./sounds/太厲害.mp3",
+    name: "太厲害",
+    id: 775
+  },
+  {
+    file: "./sounds/對2.mp3",
+    name: "對2",
+    id: 776
+  },
+  {
+    file: "./sounds/很清楚.mp3",
+    name: "很清楚",
+    id: 777
+  },
+  {
+    file: "./sounds/我的車子.mp3",
+    name: "我的車子",
+    id: 778
+  },
+  {
+    file: "./sounds/搖身一變.mp3",
+    name: "搖身一變",
+    id: 779
+  },
+  {
+    file: "./sounds/新聞.mp3",
+    name: "新聞",
+    id: 780
+  },
+  {
+    file: "./sounds/新聞自由.mp3",
+    name: "新聞自由",
+    id: 781
+  },
+  {
+    file: "./sounds/機器.mp3",
+    name: "機器",
+    id: 782
+  },
+  {
+    file: "./sounds/清楚.mp3",
+    name: "清楚",
+    id: 783
+  },
+  {
+    file: "./sounds/獨立.mp3",
+    name: "獨立",
+    id: 784
+  },
+  {
+    file: "./sounds/監控.mp3",
+    name: "監控",
+    id: 785
+  },
+  {
+    file: "./sounds/自導自演.mp3",
+    name: "自導自演",
+    id: 786
+  },
+  {
+    file: "./sounds/自由.mp3",
+    name: "自由",
+    id: 787
+  },
+  {
+    file: "./sounds/車子.mp3",
+    name: "車子",
+    id: 788
+  },
+  {
+    file: "./sounds/軒然大波.mp3",
+    name: "軒然大波",
+    id: 789
+  },
+  {
+    file: "./sounds/追蹤器.mp3",
+    name: "追蹤器",
+    id: 790
+  },
+  {
+    file: "./sounds/這是不對的.mp3",
+    name: "這是不對的",
+    id: 791
+  },
+  {
+    file: "./sounds/進來一大堆雞.mp3",
+    name: "進來一大堆雞",
+    id: 792
+  },
+  {
+    file: "./sounds/雞2.mp3",
+    name: "雞2",
+    id: 793
+  },
+  {
+    file: "./sounds/非常的厲害.mp3",
+    name: "非常的厲害",
+    id: 794
+  },
+  {
+    file: "./sounds/韓導.mp3",
+    name: "韓導",
+    id: 795
+  },
+  {
+    file: "./sounds/飛.mp3",
+    name: "飛",
+    id: 796
+  },
+  {
+    file: "./sounds/飛走了.mp3",
+    name: "飛走了",
+    id: 797
+  },
+  {
+    file: "./sounds/鳳凰.mp3",
+    name: "鳳凰",
+    id: 798
+  },
+  {
+    file: "./sounds/鳳凰都飛走了.mp3",
+    name: "鳳凰都飛走了",
+    id: 799
+  },
+  {
+    file: "./sounds/黨政要分開.mp3",
+    name: "黨政要分開",
+    id: 800
   }
 ];
 
